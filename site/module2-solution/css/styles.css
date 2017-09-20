@@ -1,0 +1,106 @@
+body {
+	font-family: Helvetica;
+
+	
+}
+* {
+	box-sizing: border-box;
+	
+}
+h1 {
+	text-align: center;
+	font-size: 1.75em;
+    
+}
+#div1, #div2, #div3 {
+	
+	border: 1px solid black;
+    float: left;
+    background-color: gray;
+    padding: 10px;
+    position: relative;
+	
+}
+.container-fluid {
+
+}
+p {
+	width: 120px;
+	height: 30px;
+	float: right;
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: bold;
+	border: 1px solid black;
+	position: relative;
+	top: -11px;
+	left: 11px;
+	margin: 0px;
+
+	
+}
+#p1 {
+	background-color: #ffcc80;
+}
+
+#p2 {
+	background-color: #ff6633;
+}
+#p3 {
+	background-color: #99994d;
+}
+section {
+	clear: right;
+	margin: 5px;
+}	
+
+
+@media (min-width: 992px) {
+	
+	#div1 {
+		width: 30%;
+		margin: 1.65%;
+	}
+	#div2 {
+		width: 30%;
+		margin:1.65% ;
+    }
+    #div3 {
+    	width: 30%;
+    	float: right;
+    	margin: 1.65%;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#div1 {
+		width: 45%;
+		margin:2.5%;
+	}
+	#div2 {
+		width: 45%;
+		margin:2.5%;
+		float: left;
+    }
+    #div3 {
+    	width: 95%;
+    	clear: left;
+    	margin-left: 2.5%;
+    }
+}
+@media (max-width: 767px) {
+	#div1 {
+		width: 90%;
+		margin: 10px 5% 10px 5%;
+
+	}
+	#div2 {
+		width: 90%;
+		margin: 10px 5% 10px 5%;
+		
+    }
+    #div3 {
+    	width: 90%;
+    	margin: 10px 5% 10px 5%;
+    
+}
