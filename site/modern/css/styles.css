@@ -1,0 +1,194 @@
+body, html {
+    height: 100%;
+}
+
+.dropdown-menu {
+	min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+	min-width: 1100px;
+}
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #f5f5f5;
+}
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("../images/main.jpg");
+   
+
+    /* Full height */
+    height: 82%; 
+
+    /* Center and scale the image nicely */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -20px;
+    
+}
+#footer {
+	background-color: #cce6ff;
+	color: #ffffff;
+}
+/*body {
+	font-size: 16px;
+	color: black;
+	background-color:	#F0FFFF;
+	font-family: 'Oxigen' sans-serif;
+	margin-bottom: 45px;
+
+}*/
+/*#header-nav {
+	background-color: #F0FFFF;
+	border-radius: 0;
+	border: 0;
+
+}
+#logo-img {
+	background: url('../images/logo.gif');
+	width: 70px;
+	height: 70px;
+	background-repeat: no-repeat;
+    margin: 10px 15px 10px 10px;
+}*/
+/*.navbar-brand {
+	padding-top: 0px;
+}*/
+/*.navbar-brand h1 { /*Fucina degli angeli*/
+   /* font-family: 'PT Sans', sans-serif;
+    color: #2e2eb8;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}*/
+/*
+.navbar-brand p { /*fondata da Egidio Costantini*/
+	/*font-size: 1.1em;
+} */
+/*.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 5px;
+}
+#nav-list a {
+	text-align: center;
+}
+#nav-list a:hover {
+	color: #2e2eb8;
+}
+#nav-list a span {
+	font-size: 1.5em;
+	margin-right: 10px;
+}*/
+/*.navbar-header button.navbar-toggle {*/
+	/*margin-top: -30px;*/
+
+/*}*/
+/*.contacts {
+	font-size: 1.3em;
+}
+.info {
+	font-size: .8em;
+}
+
+.certificate {
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 0px;
+
+}
+.img-responsive {
+	margin-left: 0px;
+}*/
+@media (max-width: 992px) {
+	#nav-list a span {
+	font-size: .9em;
+	}
+	/*Header*/
+	/*.navbar-brand h1 {
+	font-size: 4vw;	
+	}*/
+    
+    /*Logo*/
+	/*#logo-img {
+		width: 65px;
+		height: 60px;
+		margin: 5px 0px 5px 0px;
+		
+	}*/
+}
+@media (max-width: 767px) {
+	/*Header*/
+	/*.navbar-brand h1 {
+		font-size: 6vw;
+		margin-top: 5px;
+		margin-left: -5px;
+	}
+	.navbar-brand p {
+		font-size: 3.5vw;
+		margin-left: -5px;
+		
+	}
+	/*Logo*/
+	/*#logo-img {
+		width: 65px;
+		height: 60px;
+		margin: 5px 0px 5px 5px;
+	}*/
+}
+@media (max-width: 381px) {
+	.navbar-header button.navbar-toggle {
+		margin-top: 30px;
+		margin-right: 5px;
+		margin-left: -20px;
+		clear:right;
+	}
+	/*.navbar-brand h1 { /*Fucina degli angeli*/
+      /*font-size: 6.5vw;
+	}	
+	.navbar-brand p {
+		font-size: 4.5vw;
+	}*/
+}
+@media (max-width: 350px) {
+	.navbar-header button.navbar-toggle {
+	  	
+	}
+	/*.navbar-brand h1 { /*Fucina degli angeli*/
+     /* font-size: 6.5vw;
+      margin-left: -10px;
+	}	
+	.navbar-brand p {
+		font-size: 4.5vw;
+		margin-left: -10px;
+	}*/
+}

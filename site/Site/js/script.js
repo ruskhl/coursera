@@ -4,5 +4,7 @@ $(function () {
 		if (screenWidth < 768) {
 			$("#collapsable-nav").collapse('hide');
 		}
+
 	});
+	
 });
