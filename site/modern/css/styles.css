@@ -36,7 +36,13 @@ body, html {
 		overflow-x: hidden;
 	}
 }
-
+#logo-img {
+	background: url('../images/logo.gif');
+	width: 70px;
+	height: 70px;
+	background-repeat: no-repeat;
+    margin: -15px 0px 10px 10px;
+}
 .bg { 
     /* The image used */
     background-image: url("../images/main.jpg");
@@ -70,13 +76,7 @@ body, html {
 	border: 0;
 
 }
-#logo-img {
-	background: url('../images/logo.gif');
-	width: 70px;
-	height: 70px;
-	background-repeat: no-repeat;
-    margin: 10px 15px 10px 10px;
-}*/
+
 /*.navbar-brand {
 	padding-top: 0px;
 }*/
