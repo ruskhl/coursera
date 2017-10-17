@@ -50,19 +50,26 @@ a {
 	color: black;
 }
 a.active {
-	background-color: #000099;
-	padding: 0px;
-	margin-left: 0px;
+	/*background-color: #000099;
+	padding: 10px 0 10px 0;
+	margin-left: 0px;*/
 	text-decoration: none;
 	color: #ffffff;
 }
+/*li.filter-item:active {
+	background-color: #000099;
+}*//*
+    li:active {
+	background-color: #000099; 
+}*/
 a:hover {
     text-decoration: none;
     color: #ffffff;
+    /*background-color: #000099;*/
 }
-li.filter-item:hover {
-	background-color: #000099;
-}
+/*li.filter-item:hover, li.filter-item.active {
+	color: #ffffff;
+}*/
 .filter-items {
 	display: table;
 	width: 100%;
@@ -278,13 +285,13 @@ h2 {
 		width: 100%;
 		margin: 0 auto 0;
 	}
-	a {
+	.visible-xs a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
     }
 
-    a:hover {
+    .visible-xs a:hover {
     background-color: #000099;
     color: white;
     }
@@ -298,11 +305,15 @@ h2 {
     background-color: #d7d7da;
     color: black;
     }
-    .unclicable, .unclicable:hover {
+    .unclicable, a.unclicable:hover {
     background-color: #f2f2f3;
     color: black;
 
     }
+    .bg { 
+    /* The image used */
+    background-image: url("../images/mob_main.jpg");
+}
 	/*Header*/
 	/*.navbar-brand h1 {
 		font-size: 6vw;
