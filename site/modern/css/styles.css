@@ -33,26 +33,39 @@ ul, li {
 	list-style: none;
 	display: inline;
 }
+.works-container p a:hover {
+	color: #000099;
+}
 ul.filter-items {
-	background: #e6f2ff;
+	background: #f2f2f3;
     padding: 20px;
     padding-left: 10px;
 }
 li.filter-item {
 	margin-left: 10px;
 	padding: 10px;
+	background-color: #d7d7da;
+}
+a {
+	color: black;
 }
 a.active {
-	background-color: #b3d9ff;
-	padding: 10px;
+	background-color: #000099;
+	padding: 0px;
 	margin-left: 0px;
 	text-decoration: none;
+	color: #ffffff;
 }
 a:hover {
     text-decoration: none;
+    color: #ffffff;
 }
 li.filter-item:hover {
-	background-color: #b3d9ff;
+	background-color: #000099;
+}
+.filter-items {
+	display: table;
+	width: 100%;
 }
 h1 {
 	font-size: 20px;
@@ -84,30 +97,28 @@ h1 {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: -20px;
-    
+    margin-top: -20px;   
 }
 .div1 {
     float: left;
-    width: 200px;
-    height: 200px;
-    margin: 100px 150px 100px 150px;
+    width: 350px;
+    height: 250px;
+    margin: 0px auto 20px;
     /*border: 3px solid black;*/
     text-align: center;
 
 
 }
 .div2 {
-	/*border: 1px solid red;*/
-	/*clear: right;*/
-
-
+  /*border: 1px solid red;*/
+  clear: right;
+  margin: 20px 200px 0px 500px;
 }
 .category-tile {
 	position: relative;
 	border: 1px black;
 	overflow: hidden;
-	/*width: 550px; if to put width its gonna automat center itself*/
+	width: 350px; /*if to put width its gonna automat center itself*/
 	height: 250px;
 	margin: 0 auto 15px;
 }
@@ -126,12 +137,15 @@ h1 {
 .category-tile:hover {
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
+h1.collaboration {
+	text-align: center;
+}
 h2 {
 	margin-bottom: 50px;
 }
 .footer {
-	background-color: #dde6ee;
-	color: #a6a6a6;
+	background-color:#d7d7da;
+	color: #ffffff;
 	width: 100%;
     text-align: center;
     height: 80px;
@@ -203,10 +217,17 @@ h2 {
 .img-responsive {
 	margin-left: 0px;
 }*/
-@media (max-width: 992px) {
-	#nav-list a span {
-	font-size: .9em;
+@media (max-width: 991px) {
+	.container {
+		width: auto;
 	}
+	.div2 {
+		margin: 20px 100px 0px 400px;
+	} 
+
+	/*#nav-list a span {
+	font-size: .9em;
+	}*/
 	
 	/*Header*/
 	/*.navbar-brand h1 {
@@ -221,7 +242,35 @@ h2 {
 		
 	}*/
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+	.col-xxs-12 {
+		position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+	}
+	.container {
+		width: auto;
+	}
+	.div1 {
+		margin: auto;
+		width: 100%;
+		padding: 10px;
+	}
+	.div2 {
+		margin: auto;
+		width: 100%;
+		padding: 10px;
+		/*border: 3px solid green;*/
+	}
+	.div2 img {
+	    margin: auto;
+        width: 100%;
+        vertical-align: middle;
+	}
+
 	
 	/*Header*/
 	/*.navbar-brand h1 {
@@ -239,27 +288,5 @@ h2 {
 		width: 65px;
 		height: 60px;
 		margin: 5px 0px 5px 5px;
-	}*/
-}
-@media (max-width: 381px) {
-	
- }
-	
-	/*.navbar-brand h1 { /*Fucina degli angeli*/
-      /*font-size: 6.5vw;
-	}	
-	.navbar-brand p {
-		font-size: 4.5vw;
-	}*/
-}
-
-	
-	/*.navbar-brand h1 { /*Fucina degli angeli*/
-     /* font-size: 6.5vw;
-      margin-left: -10px;
-	}	
-	.navbar-brand p {
-		font-size: 4.5vw;
-		margin-left: -10px;
 	}*/
 }
