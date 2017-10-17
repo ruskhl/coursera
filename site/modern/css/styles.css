@@ -270,8 +270,39 @@ h2 {
         width: 100%;
         vertical-align: middle;
 	}
+    .filters {
+    	display: none;
+    }
+	.visible-xs {
+		display: block;
+		width: 100%;
+		margin: 0 auto 0;
+	}
+	a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    }
 
-	
+    a:hover {
+    background-color: #000099;
+    color: white;
+    }
+
+    .previous {
+    background-color: #d7d7da;
+    color: black;
+    }
+
+    .next {
+    background-color: #d7d7da;
+    color: black;
+    }
+    .unclicable, .unclicable:hover {
+    background-color: #f2f2f3;
+    color: black;
+
+    }
 	/*Header*/
 	/*.navbar-brand h1 {
 		font-size: 6vw;
