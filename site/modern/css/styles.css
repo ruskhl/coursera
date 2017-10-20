@@ -517,5 +517,10 @@ section #facebook {
    .social ul li {
     width: 250px;
   }  
+  .dropdown:hover .dropdown-menu.columns-2 {
+	display: none;
+  }
+  .dropdown:hover .dropdown-menu.columns-3 {
+	display: none;
         
 }
