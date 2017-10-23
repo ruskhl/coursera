@@ -1,5 +1,12 @@
-body, html {
+html {
     height: 100%;
+}
+body {
+	height: 100%;
+}
+.navbar {
+	height: 70px;
+	font-size: 2em;
 }
 .dropdown-menu {
 	min-width: 200px;
@@ -53,6 +60,9 @@ li.filter-item {
 	padding: 10px;
 	background-color: #d7d7da;
 }
+li.dropdown {
+	padding-top: 10px;
+}
 a {
 	color: black;
 }
@@ -103,25 +113,32 @@ h1 {
 	}
 }
 #logo-img {
-	background: url('../images/logo.gif');
-	width: 70px;
-	height: 70px;
+	background: url('../images/logo.jpg');
+	width: 100px;
+	height: 100px;
 	background-repeat: no-repeat;
     margin: -15px 0px 10px 10px;
 }
+
 .bg { 
-    /* The image used */
-    background-image: url("../images/main.jpg");
-   
+     /*The image used */
+    background-image: url("../images/main1.jpg");
+    margin-top: -80px;
+  /* width: 100% 
+   height: auto;*/
+   /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+
 
     /* Full height */
-    height: 82%; 
+    height: 100%; 
 
-    /* Center and scale the image nicely */
-    background-position: top center;
+
+    /*Center and scale the image nicely */
+    background-position: center-top;
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -20px;   
+    background-size: cover;
+     
 }
 .div1 {
     float: left;
@@ -382,10 +399,12 @@ h3.title {
 @media (max-width: 768px) {
 	.bg { 
     /* The image used */
-    background-image: url("../images/mob_main.jpg");
+    background-image: url("../images/main2.jpg");
+   
     /*margin-bottom: -200px;*/
 	/*background: url(/images/mobile.jpg) no-repet center center fixed;*/
-	}
+	/*}*/
+}
 	.col-xxs-12 {
 		position: relative;
         min-height: 1px;
