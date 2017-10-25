@@ -3,6 +3,7 @@ html, body {
 }
 body {
 	margin: 0px;
+	padding-right: 0px;
 }
 .fucina {
 	
@@ -470,6 +471,7 @@ h3.title {
 	.logo {
 		right: 500px;
 	}
+
 }
 @media (max-width: 1199px) {
 	.logo {
