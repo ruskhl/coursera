@@ -21,8 +21,14 @@
 </head>
 
 <body>
+  <!--div class="fucina-container top">
+    <a class="logo" href="index.html"><img src="images/logo.jpg"></a>
+    <div class="fucina">Fucina degli Angeli</div>
+  </div-->  
   <header>
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default" role="navigation">
+   <a class="logo" href="index.html"><img src="images/logo.jpg"></a>
+    <div class="fucina">Fucina degli Angeli</div>
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
       <span class="sr-only">Toggle navigation</span>
@@ -30,14 +36,17 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
         </button>
-        <a href="index.html" class="pull-left"><img src="/images/logo.jpg"></a>
+        <a href="index.html" class="navbar-brand" class="pull-left">
+          <div id="logo-img" alt="Logo image"></div>
+        </a>
     </div>
     <!--/.navbar-header-->
  
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="dropdown">
-              <a href="works.html" class="dropdown-toggle" data-toggle="dropdown">The works <b class="caret"></b></a>
+          <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+          <li class="dropdown" >
+              <a href="works.html">The works<b class="caret"></b></a>
               <ul class="dropdown-menu multi-column columns-2">
                 <div class="row">
                   <div class="col-sm-12">
@@ -103,7 +112,7 @@
                       <li class="divider"></li>
                       <li><a href="corbusier.html"><b>LE CORBUSIER</b></a></li>
                       <li class="divider"></li>
-                      <li><a href="corbusier_burcanio.html">Bucranio 1954</a></li>
+                      <li><a href="corbusier_bucranio.html">Bucranio 1954</a></li>
                       <li><a href="#"></a></li>
                     </ul>
                   </div>
@@ -113,7 +122,7 @@
                       <li><a href="picasso.html"><b>PABLO PICASSO</b></a></li>
                       <li class="divider"></li>
                       <li><a href="picasso_capra.html">Capra 1956</a></li>
-                      <li><a href="picasso_anfora_preciosa.html">Anfora Precioza 1962</a></li>
+                      <li><a href="picasso_anfora_precioza.html">Anfora Precioza 1962</a></li>
                       <li><a href="picasso_gufo.html">Gufo 1962</a></li>
                       <li><a href="picasso_condor.html">Condor (con collare) 1965</a></li>
                       <li><a href="picasso_acquaiola.html">Acquaiola 1968</a></li>
@@ -124,8 +133,9 @@
                 </div>
               </ul>
           </li>
-          <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-minus-sign"></span><b class="caret"></b></a>
+
+         <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Three Column <b class="caret"></b></a>
               <ul class="dropdown-menu multi-column columns-3">
                 <div class="row">
                   <div class="col-sm-4">
@@ -165,14 +175,12 @@
               </ul>
           </li>
           <li><a href="#">Link</a></li>
-           
         </ul>
     </div>
     <!--/.navbar-collapse-->
-
+</nav>
 <!--/.navbar-->
   </header>
-
       
     <div class="bg" class="responsive"></div>
 </body>
