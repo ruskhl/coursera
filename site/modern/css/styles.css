@@ -71,6 +71,7 @@ body {
 .dropdown-menu {
 	min-width: 200px;
 
+
 }	
 .dropdown:hover .dropdown-menu.columns-2 {
 	display: block;
@@ -557,9 +558,20 @@ h3.title {
     .dropdown-menu.multi-column {
 		min-width: 240px !important;
 		overflow-x: hidden;
-     
 	}
-	
+	.dropdown:hover .dropdown-menu {
+	width: 100%;
+	height: auto;
+    }
+    #dropdown-menu {
+    	/*background-color: red;*/
+    }
+    .navbar-collapse.collapse.in {
+    	height: 400px;
+    }
+    /*.multi-column-dropdown.in {
+    	height: 500px;
+    }*/
 	
 
     /*.navbar-header {
