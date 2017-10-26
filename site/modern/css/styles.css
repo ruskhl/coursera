@@ -572,7 +572,7 @@ h3.title {
     	height: 400px;
     }
     .dropdown:hover .dropdown-menu.columns-2 {
-	display: none;
+	display: auto;
     /*.multi-column-dropdown.in {
     	height: 500px;
     }*/
