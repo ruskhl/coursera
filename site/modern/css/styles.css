@@ -600,19 +600,18 @@ h3.title {
 		min-width: 240px !important;
 		overflow-x: hidden;
 	}
-	.dropdown:hover .dropdown-menu {
+	/*.dropdown:hover .dropdown-menu {
 	width: 100%;
 	height: auto;
-    }
-    #dropdown-menu {
-    	/*background-color: red;*/
-    	overflow: auto;
-    	width: auto;
-    }
-    /*.navbar-collapse.collapse.in {
-    	height: 400px;
     }*/
-    .dropdown:hover .dropdown-menu.columns-2 {
+    #dropdown-menu {
+    	background-color: red;
+    	/*overflow: auto;
+    	width: auto;*/
+    }
+    
+    /*.dropdown:hover .dropdown-menu.columns-2 {
 	display: auto;
+    }*/
     
 }   
