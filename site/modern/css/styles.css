@@ -609,9 +609,9 @@ h3.title {
     	overflow: auto;
     	width: auto;
     }
-    .navbar-collapse.collapse.in {
+    /*.navbar-collapse.collapse.in {
     	height: 400px;
-    }
+    }*/
     .dropdown:hover .dropdown-menu.columns-2 {
 	display: auto;
     
