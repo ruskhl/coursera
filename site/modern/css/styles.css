@@ -606,12 +606,21 @@ h3.title {
     }*/
     #dropdown-menu {
     	background-color: red;
+
     	/*overflow: auto;
     	width: auto;*/
     }
+    #dropdown-menu li a {
+    	color: black;
+    }
     
-    /*.dropdown:hover .dropdown-menu.columns-2 {
-	display: auto;
-    }*/
+    
+   #dropdown-menu a:focus {
+   	background-color: transparent;
+   	color: white;
+   }
+   #dropdown-menu a {
+   	text-transform: uppercase;
+   }
     
 }   
