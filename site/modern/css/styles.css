@@ -565,10 +565,14 @@ h3.title {
     }
     #dropdown-menu {
     	/*background-color: red;*/
+    	overflow: auto;
+    	width: auto;
     }
     .navbar-collapse.collapse.in {
     	height: 400px;
     }
+    .dropdown:hover .dropdown-menu.columns-2 {
+	display: none;
     /*.multi-column-dropdown.in {
     	height: 500px;
     }*/
