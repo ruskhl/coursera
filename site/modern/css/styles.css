@@ -31,14 +31,6 @@ body {
 	background-color: #999;
 }
  
-@media (max-width: 767px) {
-	.dropdown-menu.multi-column {
-		min-width: 240px !important;
-		overflow-x: hidden;
-	}
-}
-
-
 #logo-img {
 	background: url('../images/logo.jpg') no-repeat;
 	width: 130px;
@@ -139,7 +131,7 @@ ul, li {
 	display: inline;
 }
 .works-container p a:hover {
-	color: #000099;
+	color: gray;
 }
 ul.filter-items {
 	background: #f2f2f3;
@@ -571,8 +563,8 @@ h3.title {
     }
 
     .visible-xs a:hover {
-    background-color: #000099;
-    color: white;
+    background-color: gray;
+    /*color: white;*/
     }
 
     .previous {
@@ -600,22 +592,13 @@ h3.title {
 		min-width: 240px !important;
 		overflow-x: hidden;
 	}
-	/*.dropdown:hover .dropdown-menu {
-	width: 100%;
-	height: auto;
-    }*/
-    #dropdown-menu {
+	#dropdown-menu {
     	background-color: red;
-
-    	/*overflow: auto;
-    	width: auto;*/
     }
     #dropdown-menu li a {
     	color: black;
     }
-    
-    
-   #dropdown-menu a:focus {
+    #dropdown-menu a:focus {
    	background-color: transparent;
    	color: white;
    }
