@@ -193,6 +193,9 @@ h1 {
 	color: gray;
 	font-weight: bold;
 }
+.title:hover {
+	color: gray;
+}
 
 /*#logo-img {
 	background: url('../images/logo.jpg');
@@ -221,6 +224,36 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
      
+}
+.vetro h4 {          /*costantini.html*/
+	font-weight: bold;
+	font-style: italic;
+}
+.vetro p {         /*costantini.html*/
+	font-style: italic;
+	color: gray;
+}
+.pic_photo {               /*costantini.html*/
+    
+    width: 200px;
+    height: 250px;
+    border: 2px solid gray;
+    float: right;
+}
+.signature {                  /*costantini.html!!!!!*/
+  /*border: 1px solid red;*/
+  text-align: center;
+  width: 70%;
+  float: left;
+}
+.vetro {                      /*costantini.html!!!!!*/
+  /*border: 1px solid red;*/
+  clear: right;
+  margin: 20px auto 20px;
+  overflow: hidden;
+  width: 700px;
+  text-align: center;
+  width: 100%;
 }
 .div1 {
     float: left;
@@ -448,7 +481,7 @@ h3.title {
 }
 /**************** Medium devices only ***************/
 @media (min-width: 992px) and (max-width: 1199px) {
-    .dropdown:hover .dropdown-menu.columns-2 {
+    .dropdown:hover .dropdown-menu.columns-1 {
 	display: block;
     }
     .dropdown:hover .dropdown-menu.columns-3 {
@@ -485,8 +518,14 @@ h3.title {
 		height: 92px;
 		margin: 5px 5px 5px 0;
 	}
-   .dropdown-menu.columns-2 {
-	/*max-width: 700px;*/
+	.dropdown:hover .dropdown-menu.columns-1 {
+	display: block;
+    }
+    .dropdown:hover .dropdown-menu.columns-3 {
+	display: block;
+    }
+   .dropdown-menu.columns-3 {
+	min-width: 650px;
     }
 	.container {
 		width: auto;
@@ -609,5 +648,8 @@ h3.title {
    #dropdown-menu a {
    	text-transform: uppercase;
    }
-    
+    .signature {                  /*costantini.html*/
+    width: 100%;
+  
+}
 }   
