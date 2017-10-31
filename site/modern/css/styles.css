@@ -240,11 +240,13 @@ h1 {
     border: 2px solid gray;
     float: right;
 }
-.signature {                  /*costantini.html!!!!!*/
+.signature img {                  /*costantini.html!!!!!*/
   /*border: 1px solid red;*/
-  text-align: center;
+  /*text-align: center;*/
   width: 70%;
+  height: auto;
   float: left;
+  padding-top: 40px;
 }
 .vetro {                      /*costantini.html!!!!!*/
   /*border: 1px solid red;*/
@@ -630,6 +632,10 @@ h3.title {
     	text-align: center;
     	margin-left: 20px;
     }
+    .signature img {                  /*costantini.html!!!!!*/
+    width: 100%;
+    height: auto;
+    }
     .dropdown-menu.multi-column {
 		min-width: 240px !important;
 		overflow-x: hidden;
@@ -648,8 +654,9 @@ h3.title {
    #dropdown-menu a {
    	text-transform: uppercase;
    }
-    .signature {                  /*costantini.html*/
-    width: 100%;
-  
-}
+   .pic_photo {
+   	width: 100%;
+   	border: none;
+   }
+    
 }   
