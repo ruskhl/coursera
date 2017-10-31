@@ -4,7 +4,10 @@ html, body {
 body {
 	margin: 0px;
 }
-
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: transparent;
+	color: white;
+}
 .dropdown-menu {
 	min-width: 200px;
 }
@@ -430,7 +433,7 @@ h3.title {
 		padding-top: 10px;
 	}
 	*/
-    .dropdown:hover .dropdown-menu.columns-2 {
+    .dropdown:hover .dropdown-menu.columns-1 {
 	display: block;
     }
     .dropdown:hover .dropdown-menu.columns-3 {
@@ -601,7 +604,8 @@ h3.title {
     #dropdown-menu a:focus {
    	background-color: transparent;
    	color: white;
-   }
+    }
+   
    #dropdown-menu a {
    	text-transform: uppercase;
    }
