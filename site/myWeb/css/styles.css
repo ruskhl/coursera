@@ -67,5 +67,16 @@ img {
 }
 /**************** Extra small devices only ***************/
 @media (max-width: 767px) {
+	.sort-container h1 {
+	padding-left: 20px;
 	
+    }
+    .sort-container p {
+	padding-left: 20px;
+	}
+	.images {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 30px;
+    }
 }   
