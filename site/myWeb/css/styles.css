@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+}
+/*******NAVIGATION********/
+.navbar.navbar-default {
+	border: 0;
+	border-radius: 0px;
+	/*font-size: 18px;*/
+}
+.navbar-brand h1 {
+	color: #2d2d2d;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #cecaca;
+	text-transform: uppercase;
+	line-height: .75;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list .active {
+	color: #b38f00;
+}
+#nav-list li{
+	text-transform: uppercase;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.active {
+	color: yellow;
+}
+.sort-container {
+	background-color: #f3f2f1;
+}
+.sort-container h1 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding: 20px 0 10px 110px;
+	padding-top: 
+}
+.sort-container p {
+	padding: 0 0 10px 110px;
+	font-style: italic;
+}
+.images {
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+
+img { 
+    width: 100%; 
+
+}
+
+/**************** Large devices only ***************/
+@media (min-width: 1200px) {
+	
+}
+/**************** Medium devices only ***************/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+/**************** Small devices only ***************/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+/**************** Extra small devices only ***************/
+@media (max-width: 767px) {
+	
+}   
