@@ -328,6 +328,7 @@ html {
 .content
  {
   float: right;
+
 }
 
 
@@ -337,6 +338,20 @@ html {
   position: sticky;
   top: 15px;
 }
+.sticky {
+    top: 0;
+    position: fixed;
+}
+/*.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.sticky:before,
+.sticky:after {
+    content: '';
+    display: table;
+}*/
 #extras {
   position: absolute;
   right: 0%;
@@ -523,11 +538,12 @@ margin-left: auto;
 .works-word {
     color: white;
 }
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+.sidebar:before,
+.sidebar:after {
+    content: '';
+    display: table;
 }
+
 
 /**************** Large devices only ***************/
 @media (min-width: 1500px) {

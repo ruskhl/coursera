@@ -11,46 +11,32 @@ function myFunction(x) {
     }
 }
 
-
-// var sidebar = document.getElementById('sidebar');
-// Stickyfill.add(sidebar);   
-
-// var elements = document.querySelectorAll('.sticky');
-// Stickyfill.add(sidebar);
+// var sidebar = document.getElementById('nav');
+// Stickyfill.add(sidebar); 
 
 
-// var elements = $('.sticky');
-// Stickyfill.add(elements);
+// Demo by Aurelio De Rosa (@AurelioDeRosa)
+// See article: http://www.sitepoint.com/css-position-sticky-introduction-polyfills/
 
-
-
-
-// //browser window scroll (in pixels) after which the "back to top" link is shown
-// var offset = 300,
-//   //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
-//   offset_opacity = 1200,
-//   //duration of the top scrolling animation (in ms)
-//   scroll_top_duration = 700;
+var menu = document.querySelector('.nav');
+var menuPosition = menu.getBoundingClientRect();
+var placeholder = document.createElement('div');
+placeholder.style.width = menuPosition.width + 'px';
+placeholder.style.height = menuPosition.height + 'px';
+var isAdded = false;
 
 
 
+window.addEventListener('scroll', function() {
+    if (window.pageYOffset >= menuPosition.top && !isAdded) {
+        menu.classList.add('sticky');
+        menu.parentNode.insertBefore(placeholder, menu);
+        isAdded = true;
+    } else if (window.pageYOffset < menuPosition.top && isAdded) {
+        menu.classList.remove('sticky');
+        menu.parentNode.removeChild(placeholder);
+        isAdded = false;
+    }
+});
 
 
-// $(document).ready(function(){
-  
-//   //Check to see if the window is top if not then display button
-//   $(window).scroll(function(){
-//     if ($(this).scrollTop() > 100) {
-//       $('.top').fadeIn();
-//     } else {
-//       $('.top').fadeOut();
-//     }
-//   });
-  
-//   //Click event to scroll to top
-//   $('.top').click(function(){
-//     $('html, body').animate({scrollTop : 0},800);
-//     return false;
-//   });
-  
-// });
