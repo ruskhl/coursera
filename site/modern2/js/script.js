@@ -15,7 +15,8 @@ function myFunction(x) {
 var sidebar = document.getElementById('sidebar');
 Stickyfill.add(sidebar);
 
-
+var elements = document.querySelectorAll('.sticky');
+Stickyfill.add(sidebar);
 
 
 
