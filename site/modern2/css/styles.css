@@ -398,6 +398,26 @@ html {
   color: #9d9d9d;
   text-decoration: underline;
 }
+#back-top a {
+    
+    display: block;
+    color: #9d9d9d;
+
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+
+    /* transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover {
+    color: #9d9d9d;
+    text-decoration: underline;
+}
 
 h3.title {
     margin: 0 0 10px;
