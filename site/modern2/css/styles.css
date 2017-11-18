@@ -194,7 +194,7 @@ body {
 }
 .title-main {
     width: 50%;
-    padding-top: 70px;
+    padding-top: 50px;
     float: right;
     text-align: center;
     
@@ -469,6 +469,7 @@ p.back-page {
     padding-left: 30px;
     text-transform: uppercase;
     color: white;
+
 }
 .title-works h4 {
     font-size: 2em;
@@ -686,12 +687,14 @@ margin-left: auto;
 }
     .title-main {
     width: 90%;
-    
+    padding-top: 180px;
+    margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
     }
 .title-bg {
     font-size: 1.9em;
+    
     
     
 }
@@ -700,7 +703,7 @@ margin-left: auto;
     font-style: italic;
 }
 .bg {
-    height: 100%;
+    height: 100vh;
 }
 .signature img {                  /*costantini.html!!!!!*/
     width: 100%;
@@ -732,10 +735,15 @@ margin-left: auto;
     .works-word-div {
     width: 100%;
     text-align: justify;
+    padding-bottom: 10px;
+    margin-bottom: 10px; 
+
     }
     .works-word {
+
         padding: 0;
         margin-top: -20;
+        
 
     }
     .bg {
@@ -743,8 +751,14 @@ margin-left: auto;
     background-image: url("../images/main_works_mob.jpg");
 
     /* Full height */
-    height: 100%; 
-    /*width: 100%;*/
+    /*height: 100%; */
+    width: 100%;
+    height: 100%;
+
+   }
+   .title-works {
+    height: 70%;
+    padding-bottom: 0;
    }
    .title-works h4 {
     /*margin-top: 360px;*/
@@ -752,15 +766,21 @@ margin-left: auto;
     padding-bottom: 0;
    }
    .title-bg {
-    width: 80%;
+    width: 90%;
     float: right;
+    padding-top: 30px;
+    margin-top: -150px;
+    /*margin-left: 0;*/
 
    }
    .title-bg-translated {
     clear: both;
-    width: 70%;
+    width: 90%;
+    padding-left: 25px;
+    padding-right: 25px;
     float: right;
     font-size: 1.1em;
+    margin-top: -115px;
    }
    .title-works-main, .title-life-main {
     width: 150px;
