@@ -798,7 +798,7 @@ margin-left: auto;
     }
     .bg {
     /* The image used */
-    background-image: url("../images/main_works_mob.jpg");
+    background-image: url("../images/main_works_mob3.jpg");
 
     /* Full height */
     /*height: 100%; */
@@ -816,20 +816,25 @@ margin-left: auto;
     padding-bottom: 0;
    }
    .title-bg {
-    width: 90%;
+    width: 85%;
     float: right;
     padding-top: 30px;
-    margin-top: -150px;
+    margin-top: -180px;
+    font-size: 1.6em;
+    /*margin-right: 0px;*/
+    /*margin-left: 30px;*/
     /*margin-left: 0;*/
+
 
    }
    .title-bg-translated {
     clear: both;
-    width: 90%;
-    padding-left: 25px;
-    padding-right: 25px;
+    width: 75%;
+    /*padding-left: 20px;*/
+    padding-right: 0px;
+    margin-right: 10px;
     float: right;
-    font-size: 1.1em;
+    font-size: 1.0em;
     margin-top: -115px;
    }
    .title-works-main, .title-life-main {
