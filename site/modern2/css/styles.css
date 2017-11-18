@@ -529,6 +529,7 @@ margin-left: auto;
 .word-said {
     font-style: italic;
     color: gray;
+
     }
 .container-life {
     font-size: 1.2em;
@@ -554,6 +555,7 @@ margin-left: auto;
 .works-word-div {
     width: 300px;
     padding: 0 20px;
+
 }
 .works-word {
     color: white;
@@ -745,8 +747,9 @@ margin-left: auto;
     /*width: 100%;*/
    }
    .title-works h4 {
-    margin-top: 360px;
-    margin-bottom: 10;
+    /*margin-top: 360px;*/
+    margin-bottom: 10px;
+    padding-bottom: 0;
    }
    .title-bg {
     width: 80%;
