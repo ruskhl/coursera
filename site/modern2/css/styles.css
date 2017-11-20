@@ -7,7 +7,7 @@ body {
 
 }
 
-
+/**********/
 
                                    /***********id header-nav***********/
 #header-nav {
@@ -131,6 +131,8 @@ body {
 }
 .mystyle {
     width: 400px;
+    
+    
     padding: 25px;
     /*background-color: coral;*/
     color: white;

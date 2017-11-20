@@ -3,14 +3,12 @@ function myFunction(x) {
     var element = document.getElementById("mySidenav");
     element.classList.toggle("mystyle");
     function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "250px"
     document.getElementById("wrapper").style.position = "fixed";
-   
-
-   
+       
     }
 }
-
+////
 // var sidebar = document.getElementById('nav');
 // Stickyfill.add(sidebar); 
 
