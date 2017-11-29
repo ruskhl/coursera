@@ -14,8 +14,17 @@ h1 {
 	font-size: 50px;
 }
 h2 {
-	font-size: 40px;
+	font-size: 50px;
+	
+	margin: 0;
 }
+.mywork {
+	font-size: 60px;
+	float: right;
+	margin-right: 150px;
+
+}
+
 
 .content {
   position: absolute;
@@ -101,11 +110,24 @@ button {
 
 }
 .bg2 {
-	background-image: none;
-	height: 100%; 
+	/*background-image: none;*/
+    background-color: #e8e8e8;
+	height: 100%;
+
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.typedtext {
+	font-family: 'Waiting for the Sunrise', cursive; 
+  font-size:30px; 
+  margin: 10px 50px; 
+  letter-spacing: 6px; 
+  font-weight: bold;
+  float: right;
+}
+.image1 {
+	height: 90%;
 }
 .bg3 {
 	background-image: none;
