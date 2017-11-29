@@ -127,7 +127,9 @@ button {
   float: right;
 }
 .image1 {
-	height: 90%;
+	/*height: 90%;*/
+	width: 100%;
+
 }
 .bg3 {
 	background-image: none;
