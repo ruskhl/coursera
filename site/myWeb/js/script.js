@@ -55,10 +55,19 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
     };
     //move down
-    $("button").click(function() {
+    $("a").click(function() {
     $('html,body').animate({
         scrollTop: $(".bg2").offset().top},
         'slow');
+});
+
+
+$("button").click(function(){
+    if($(this).hasClass('active')){
+        $(this).removeClass('active')
+    } else {
+        $(this).addClass('active')
+    }
 });
 
 
