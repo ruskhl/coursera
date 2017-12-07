@@ -17,6 +17,14 @@
 // var isAdded = false;
 
 
+var menu = document.querySelector('.nav');
+var menuPosition = menu.getBoundingClientRect();
+var placeholder = document.createElement('div');
+placeholder.style.width = menuPosition.width + 'px';
+placeholder.style.height = menuPosition.height + 'px';
+var isAdded = false;
+
+
 
 window.addEventListener('scroll', function() {
     if (window.pageYOffset >= menuPosition.top && !isAdded) {
