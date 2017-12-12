@@ -201,12 +201,16 @@ color: black;
 }
 .explore_more {
   font-size: 24px;
-  color: #fff;
+  color: black;
+  font-weight: bolder;
   opacity: 0.75;
 }
 .explore_more:hover {
   text-decoration: none;
   color: #fff;
+}
+.explore_more:after {
+  color: black;
 }
 #logo-img {
     background: url('../images/logo.jpg') no-repeat;
@@ -985,6 +989,7 @@ h3.collaboration {
     margin-top: -180px;
 
    }
+  
    
 }   
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
