@@ -99,7 +99,8 @@ body, html {
 }
 
 h1 {
-	font-family: 'Tangerine', cursive;
+	/*font-family: 'Tangerine', cursive;*/
+	font-family: "Monsieur La Doulaise";
 	font-size: 120px;
 	
 }
@@ -107,13 +108,13 @@ h1 {
 	font-family: serif;
 	text-transform: uppercase;
 	font-size: 30px;
-	margin-top: -50px;
+	margin-top: -30px;
 	text-align: center;
 	
 }
 .name a {
 	position: absolute;
-	top: 0;
+	top: 10px;
 	overflow: hidden;
 	color: #ffffcc;
 	padding: 0px 50px;
