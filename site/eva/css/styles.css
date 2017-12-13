@@ -112,6 +112,7 @@ h1 {
 	text-align: center;
 	
 }
+
 .name a {
 	position: absolute;
 	top: 10px;
@@ -124,7 +125,7 @@ h1 {
 .nav {
 	width: 100%;
 	background-color: gray;
-	padding-bottom: 20px;
+	padding-bottom: 60px;
 
 }
 
@@ -274,5 +275,10 @@ p {
 }	
 .bg6_about_me {
 	padding-top: 0px;
+}
+.nav {
+	padding-bottom: 0px;
+	margin-bottom: -20px;
+
 }
 }
