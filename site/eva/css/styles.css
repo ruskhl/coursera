@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 /*.main-content.main-section {
 	height: 100vh;
@@ -46,7 +47,7 @@ body, html {
 	padding-right: 0;
 }
 .bg6_about_me {
-	padding-top: 0;
+	padding-top: 30px;
 }
 
 /*******NAVIGATION********/
@@ -149,7 +150,7 @@ h3 {
 	text-transform: uppercase;
 	font-weight: bolder;
 	text-align: center;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	padding-top: 15px;
 }
 p {
@@ -160,12 +161,15 @@ p {
 .more {
 	font-style: italic;
 	color: black;
+	padding-top: 20px;
+	color: gray;
 }
 
 .p_about_me {
 	padding-right: 15px;
 	padding-left: 15px;
 	text-align: justify;
+
 }
 
 /*************FOOTER***************/
@@ -193,6 +197,13 @@ p {
 	.bg6, .bg7, .bg8 {
 	padding-left: 0;
 	padding-right: 0;
+    }
+    .bg6_about_me {
+	padding-top: 0px;
+    }
+    .about_me {
+	margin: 0;
+	padding: 0;
 }
 }
 
@@ -242,5 +253,7 @@ p {
 	margin: 0;
 	padding: 0;
 }	
-
+.bg6_about_me {
+	padding-top: 0px;
+}
 }
