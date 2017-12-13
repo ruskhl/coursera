@@ -13,18 +13,24 @@ function carousel() {
     setTimeout(carousel, 5000); // Change image every 2 seconds
 }
 
+
+
+
+
+
+
+
 //navigation
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
-}
-
+}    
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
 
 //move down
-    $("a").click(function() {
+    $("p").click(function() {
     $('html,body').animate({
         scrollTop: $(".bg6").offset().top},
         'slow');
