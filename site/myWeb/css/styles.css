@@ -37,7 +37,7 @@ a {
 	color: #fff;
 	opacity: 0.75;
 }
-a:hover {
+a:hover, a:visited, a:focus {
 	text-decoration: none;
 	color: #fff;
 }
@@ -136,11 +136,12 @@ button.active {
 
 }
 .bg2 {
-	background-image: none;
+	/*background-image: none;*/
+	background-color: transparent;
 	height: 100%; 
-	background-position: center;
+	/*background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 .header1 {
 	font-size: 50px;
@@ -192,7 +193,7 @@ button.active {
 
 }
 .bg3 {
-	/*background-image: none;*/
+	background-image: none;
     background-color: #e8e8e8;
 	height: 100%;
 
@@ -216,11 +217,26 @@ button.active {
 }
 /**************** Extra small devices only ***************/
 @media (max-width: 767px) {
-	
-	.bg1, .bg2, .bg3 {
-		width: 100%;
-		height: auto;
-	}
-	
-
+	.bg1 {
+    /* The image used */
+    background-image: url('../images/main2_mob.JPG');
+    }
+	.bg2 {
+    	height: auto;
+    	width: 100%;
+    }
+    .bg3 {
+    	height: 100%;
+    	background-color: transparent;
+    	
+    }
+    .image1.container {
+    	padding: 0;
+    	margin: 0;
+    }
+    .all {
+    	position: absolute;
+    	bottom: 10px;
+    	font-size: 0.9em;
+    }
 }   
