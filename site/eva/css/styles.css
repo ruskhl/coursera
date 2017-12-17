@@ -157,9 +157,9 @@ h1 {
 span {
 	color: white;
 	font-size: 20px;
-
-
-
+}
+.explore:hover {
+	opacity: 0.75;
 }
 a:hover  {
 	text-decoration: none;
@@ -185,11 +185,18 @@ p {
 	color: gray;
 }
 
+
 .p_about_me {
 	padding-right: 15px;
 	padding-left: 15px;
 	text-align: justify;
 
+}
+a img:hover {
+	opacity: 0.5;
+}
+.about_me img {
+	padding-bottom: 40px;
 }
 
 /*************FOOTER***************/
