@@ -17,12 +17,12 @@
 // var isAdded = false;
 
 
-var menu = document.querySelector('.nav');
-var menuPosition = menu.getBoundingClientRect();
-var placeholder = document.createElement('div');
-placeholder.style.width = menuPosition.width + 'px';
-placeholder.style.height = menuPosition.height + 'px';
-var isAdded = false;
+// var menu = document.querySelector('.nav');
+// var menuPosition = menu.getBoundingClientRect();
+// var placeholder = document.createElement('div');
+// placeholder.style.width = menuPosition.width + 'px';
+// placeholder.style.height = menuPosition.height + 'px';
+// var isAdded = false;
 
 
 
@@ -39,11 +39,7 @@ window.addEventListener('scroll', function() {
 });
 
 
-  $("a").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".scroll_down").offset().top},
-        'slow');
-});
+
 
 $('#back-top a').click(function () {
 			$('body,html').animate({
@@ -54,5 +50,38 @@ $('#back-top a').click(function () {
 
 
  //move down
+ $(".span3").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down3").offset().top},
+        'slow');
+    var element = document.getElementById("id01");
+element.innerHTML = "scroll up";
+$(".span3").click(function() {
+   
+    $('body,html').animate({
 
+                scrollTop: 0
+            }, 800);
+            return false;
+            
+        });
+// var element = document.getElementById("id01");
+// element.innerHTML = "scroll down to see contacts";
+ 
+});
+  $(".span2").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down2").offset().top},
+        'slow');
+});
+  $(".span1").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down1").offset().top},
+        'slow');
+});
 
+  $(".span4").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down4").offset().top},
+        'slow');
+});
