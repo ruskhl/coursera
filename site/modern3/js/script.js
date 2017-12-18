@@ -65,6 +65,8 @@ $(".span3").click(function() {
             return false;
             
         });
+
+
 // var element = document.getElementById("id01");
 // element.innerHTML = "scroll down to see contacts";
  
@@ -85,3 +87,15 @@ $(".span3").click(function() {
         scrollTop: $(".scroll_down4").offset().top},
         'slow');
 });
+
+
+
+//sidenav
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}

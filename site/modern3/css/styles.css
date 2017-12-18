@@ -114,10 +114,7 @@ h3 {
 }
 /*************NAVIGATION*********/
 /*****MENU*******/
-.navbar {
-  background-color: transparent;
-  border-style: none;
-}
+
 #myNavbar .navbar-nav a {
   text-transform: uppercase;
   font-size: 30px;
@@ -214,15 +211,138 @@ color: black;
   color: black;
 }
 #logo-img {
-    background: url('../images/logo.jpg') no-repeat;
+    background: url('../images/logo-blue.png') no-repeat;
     width: 130px;
-    height: 120px;
-    margin: 0px 0px 0px 0;
+    height: 130px;
+    margin: 0px 0px 0px 50px;
 }
+#logo-img-menu {
+  background: url('../images/logo-blue.png') no-repeat;
+  width: 130px;
+    height: 130px;
+    /*text-align: center;*/
+}
+a#logo-img-menu {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center-menu {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+.navbar-brand-menu {
+  text-align: center;
+}
+.navbar-brand {
+    text-align: center;
+    width: 70%;
+
+  }
+.navbar-brand h1 { /*Fucina*/
+  color: #2e36d1;
+  font-size: 3em;
+
+  text-transform: uppercase;
+
+
+  
+    
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand-menu h1 {
+  color: #2e36d1;
+  font-size: 2em;
+
+  text-transform: uppercase;
+
+
+  
+    
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+.navbar-brand p {   /*Fondata*/
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.navbar-brand-menu p {
+  font-size: 1.5em;
+  color: white;
+}
+
 
 /***********END INDEX.html****************/
 
-                              
+/*************SIDE NAV***********/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.spanmenu {
+  font-size: 50px;
+  color: white;
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  float: right;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*******END SIDE NAV*********/                             
 
 
                           
@@ -702,6 +822,10 @@ img.counter {
   width: 50px;
 
 }
+.text-center-menu {
+  width: 100%;
+  text-align: center;
+}
 
 
 /**************** Large devices only ***************/
@@ -756,6 +880,14 @@ img.counter {
 
 /**************** Medium devices only ***************/
 @media (min-width: 992px) and (max-width: 1199px) {
+  
+  .navbar-brand h1 {
+      font-size: 3em;
+   }
+   .navbar-brand p {
+      font-size: 1.5em;
+    }
+
    img {
     width: 100%;
    }
@@ -782,12 +914,15 @@ img.counter {
 
 /**************** Small devices only ***************/
 @media (min-width: 768px) and (max-width: 991px) {
-  #logo-img {
-    /*background: url('../images/logo_small.jpg') no-repeat;
-    width: 100px;
-    height: 92px;*/
-    /*margin: 5px 5px 5px 0;*/
+  .navbar-brand {
+    text-align: center;
   }
+  .navbar-brand h1 {
+      font-size: 2.5em;
+        
+
+     }
+
  
     img {
     width: 100%;
@@ -867,7 +1002,28 @@ img.counter {
 }
 /**************** Extra small devices only ***************/
 @media (max-width: 767px) {
-  
+    /* .navbar-fixed-top {
+      width: 100%;
+      text-align: center;
+     }*/
+     .navbar-brand h1 {
+      font-size: 1.6em;
+      text-align: center;
+      /*margin-bottom: 0;*/
+        
+
+     }
+     .navbar-brand {
+      float: none;
+     }
+     .navbar-brand p {
+      font-size: 0.8em;
+      text-align: center;
+      padding-top: 5px;
+     }
+     .spanmenu {
+      margin-right: -30px;
+     }
     .col-xxs-12 {
     position: relative;
         min-height: 1px;
