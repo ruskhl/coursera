@@ -260,7 +260,7 @@ a#logo-img-menu {
 }
 .navbar-brand-menu h1 {
   color: #2e36d1;
-  font-size: 2em;
+  font-size: 1.8em;
 
   text-transform: uppercase;
 
@@ -313,6 +313,7 @@ a#logo-img-menu {
     color: #818181;
     display: block;
     transition: 0.3s;
+    text-transform: uppercase;
 
 }
 
@@ -333,7 +334,7 @@ a#logo-img-menu {
   color: white;
   position: fixed;
   right: 50px;
-  top: 50px;
+  top: 30px;
   float: right;
 
 }
@@ -1002,16 +1003,19 @@ img.counter {
 }
 /**************** Extra small devices only ***************/
 @media (max-width: 767px) {
-    /* .navbar-fixed-top {
+    .navbar-brand {
       width: 100%;
       text-align: center;
-     }*/
+     }
      .navbar-brand h1 {
-      font-size: 1.6em;
+      font-size: 1.5em;
       text-align: center;
       /*margin-bottom: 0;*/
         
 
+     }
+     .navbar-brand-menu h1 {
+      font-size: 1em;
      }
      .navbar-brand {
       float: none;
@@ -1036,9 +1040,7 @@ img.counter {
   .container-toggle {
         top: -60px;
     }
-    .sidenav {
-    top: 85px;
-    }
+    
    
    .work-content {
     height: 100px;
