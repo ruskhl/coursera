@@ -50,16 +50,15 @@ p {
   min-height: 100%;
 }
 .bgimg-4 {
-   background-image: url("../images/logo-blue.png");
+   background-image: url("../images/main4.jpg");
 
   height: 100%; 
   width: 100%;
   
   /*min-height: 100%;*/
 }
-img .bgimg-4 {
-  opacity: 0.5;
-}
+
+
 
 .caption {
   position: absolute;
@@ -87,13 +86,22 @@ img .bgimg-4 {
   text-align: center;
   color: #000;
 }
-.caption a:hover, .caption3 a:hover, .caption2 a:hover {
+.caption4 {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+
+}
+.caption a:hover, .caption3 a:hover, .caption2 a:hover, .caption4 a:hover {
   text-decoration: none;
 }
 
 
 
-.caption3 span.border, .caption2 span.border, .caption span.border {
+.caption3 span.border, .caption2 span.border, .caption span.border, .caption4 span.border {
   background-color: #111;
   color: #fff;
   padding: 18px;
@@ -102,7 +110,7 @@ img .bgimg-4 {
   padding-bottom: 35px;
   
 }
-.caption p, .caption3 p, .caption2 p{
+.caption p, .caption3 p, .caption2 p, .caption4 p {
   color: #fff;
 }
 
@@ -222,6 +230,7 @@ color: black;
   background: url('../images/logo-blue.png') no-repeat;
   width: 130px;
     height: 130px;
+    
     /*text-align: center;*/
 }
 a#logo-img-menu {
@@ -376,7 +385,7 @@ a#logo-img-menu {
 }
 .bg2 {
     /* The image used */
-    background-image: url("../images/main2.jpg");
+    background-image: url("../images/main3.jpg");
 
     /* Full height */
     height: 100%; 
@@ -391,7 +400,7 @@ a#logo-img-menu {
 }
 .bg3 {
      /* The image used */
-    background-image: url("../images/main3.jpg");
+    background-image: url("../images/logo-blue.png");
 
     /* Full height */
     height: 100%; 
@@ -1134,7 +1143,7 @@ img.counter {
 
 
 .bgimg-2 {
-  background-image: url("../images/logo-blue-big.png");
+  background-image: url("../images/main2.png");
   /*height: auto; 
   width: 100%;*/
 padding: 0;
@@ -1150,8 +1159,9 @@ margin: 0;
 
 }
 
-.bgimg-3, .bgimg-4 {
-   background-image: url("../images/main3_mob.jpg");
+
+.bgimg-4 {
+   background-image: url("../images/main4_mob.jpg");
   height: 100%; 
   width: 100%;
   height: 100%;
