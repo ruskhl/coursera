@@ -41,47 +41,43 @@ window.addEventListener('scroll', function() {
 
 
 
-$('#back-top a').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 800);
-			return false;
-		});
+
 
 
  //move down
+
+  
+  $(".span1").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down1").offset().top},
+        'slow');
+});
+$(".span2").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down2").offset().top},
+        'slow');
+});
  $(".span3").click(function() {
     $('html,body').animate({
         scrollTop: $(".scroll_down3").offset().top},
         'slow');
-    var element = document.getElementById("id01");
-element.innerHTML = "scroll up";
-$(".span3").click(function() {
+//     var element = document.getElementById("id01");
+// element.innerHTML = "scroll up";
+// $(".span3").click(function() {
    
-    $('body,html').animate({
+//     $('body,html').animate({
 
-                scrollTop: 0
-            }, 800);
-            return false;
+//                 scrollTop: 0
+//             }, 800);
+//             return false;
             
-        });
+//         });
 
 
 // var element = document.getElementById("id01");
 // element.innerHTML = "scroll down to see contacts";
  
 });
-  $(".span2").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".scroll_down2").offset().top},
-        'slow');
-});
-  $(".span1").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".scroll_down1").offset().top},
-        'slow');
-});
-
   $(".span4").click(function() {
     $('html,body').animate({
         scrollTop: $(".scroll_down4").offset().top},
@@ -89,6 +85,14 @@ $(".span3").click(function() {
 });
 
 
+
+
+$('#back-top a').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
 
 //sidenav
 
@@ -99,3 +103,10 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+
+
+
+
+
+
