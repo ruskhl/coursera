@@ -386,6 +386,16 @@ top: 10px;
 /*.fon span p {
   text-align: center;
 }*/
+
+
+.sidemenu {
+    margin-top: -20px;
+    margin-bottom: 0;
+   }
+   .fb {
+    margin-top: -30px;
+   }
+
 /*******END SIDE NAV*********/                             
 
 
