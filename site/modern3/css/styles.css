@@ -365,7 +365,7 @@ top: 10px;
     margin-left: 50px;
 }
 
-.spanmenu {
+.pull-right {
   font-size: 50px;
   color: white;
   position: fixed;
@@ -1068,7 +1068,7 @@ img.counter {
       padding-top: 5px;
       color: white;
      }
-     .spanmenu {
+     .pull-right {
       margin-right: -30px;
       font-size: 30px;
       padding-top: 20px;
@@ -1279,6 +1279,13 @@ h1.menu-bot {
    }
    .p {
     display: none;
+   }
+   .sidemenu {
+    padding-top: 0;
+    margin-bottom: 0;
+   }
+   .fb {
+    margin-top: -30px;
    }
 
    
