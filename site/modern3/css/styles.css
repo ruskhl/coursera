@@ -50,14 +50,17 @@ p {
   min-height: 100%;
 }
 .bgimg-4 {
-   background-image: url("../images/main4.jpg");
-
+   /*background-image: url("../images/main4.jpg");*/
+   background-color: black;
   height: 100%; 
   width: 100%;
   
   /*min-height: 100%;*/
 }
+.bgimg-5 {
+  background-color: black;
 
+}
 
 
 .caption {
@@ -89,7 +92,7 @@ p {
 .caption4 {
   position: absolute;
   left: 0;
-  top: 30%;
+  top: 20%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -220,17 +223,27 @@ color: black;
 .explore_more:after {
   color: black;
 }
+
 #logo-img {
-    background: url('../images/logo-blue.png') no-repeat;
+    /*background: url('../images/logo-blue.png') no-repeat;*/
     width: 130px;
     height: 130px;
-    margin: 0px 0px 0px 50px;
+    /*margin: 0px 0px 0px 50px;*/
+
+}
+
+.logo-img-foot {
+   width: 130px;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 #logo-img-menu {
   background: url('../images/logo-blue.png') no-repeat;
   width: 130px;
     height: 130px;
-    
+
     /*text-align: center;*/
 }
 a#logo-img-menu {
@@ -243,15 +256,26 @@ a#logo-img-menu {
   text-align: center;
 }
 
+.navbar-brand-menu-bot {
 
-
+}
+h1.menu-bot {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: bolder;
+  color: #2e36d1;
+  text-shadow: 1px 1px 1px #222;
+}
 
 .navbar-brand-menu {
   text-align: center;
 }
 .navbar-brand {
     text-align: center;
-    width: 70%;
+    width: 100%;
+position: absolute;
+top: 10px;
+   
 
   }
 .navbar-brand h1 { /*Fucina*/
@@ -268,6 +292,7 @@ a#logo-img-menu {
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
+
 }
 .navbar-brand-menu h1 {
   color: #2e36d1;
@@ -354,6 +379,13 @@ a#logo-img-menu {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+.sidemenu {
+  color: white;
+}
+/*.fon span p {
+  text-align: center;
+}*/
 /*******END SIDE NAV*********/                             
 
 
@@ -836,10 +868,7 @@ img.counter {
   width: 50px;
 
 }
-.text-center-menu {
-  width: 100%;
-  text-align: center;
-}
+
 
 
 /**************** Large devices only ***************/
@@ -1037,9 +1066,13 @@ img.counter {
       font-size: 0.8em;
       text-align: center;
       padding-top: 5px;
+      color: white;
      }
      .spanmenu {
       margin-right: -30px;
+      font-size: 30px;
+      padding-top: 20px;
+      color: white;
      }
     .col-xxs-12 {
     position: relative;
@@ -1161,7 +1194,7 @@ margin: 0;
 
 
 .bgimg-4 {
-   background-image: url("../images/main4_mob.jpg");
+  /* background-image: url("../images/main4_mob.jpg");*/
   height: 100%; 
   width: 100%;
   height: 100%;
@@ -1175,6 +1208,15 @@ margin: 0;
   text-align: center;
   color: #000;
 
+}
+.caption4 {
+ 
+  top: 5%;
+  
+
+}
+h1.menu-bot {
+  font-size: 2em;
 }
    .title-works {
     height: 70%;
