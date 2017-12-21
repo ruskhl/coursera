@@ -393,7 +393,7 @@ top: 10px;
 
 }
 
-.pull-right.spanmenumain {
+/*.pull-right*/.spanmenumain {
   font-size: 50px;
   color: white;
   
@@ -1130,7 +1130,7 @@ img.counter {
       padding-top: 20px;
       color: white;
      }
-     .pull-right.spanmenumain {
+     /*.pull-right*/.spanmenumain {
       
       font-size: 30px;
       padding-top: 50px;
