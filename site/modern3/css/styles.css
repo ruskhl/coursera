@@ -98,13 +98,21 @@ p {
   color: #000;
 
 }
-.caption a:hover, .caption3 a:hover, .caption2 a:hover, .caption4 a:hover {
+.caption5 {
+   position: absolute;
+  left: 0;
+  bottom: 10%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption a:hover, .caption3 a:hover, .caption2 a:hover, .caption4 a:hover, .caption5 a:hover {
   text-decoration: none;
 }
 
 
 
-.caption3 span.border, .caption2 span.border, .caption span.border, .caption4 span.border {
+.caption3 span.border, .caption2 span.border, .caption span.border, .caption4 span.border, .caption5 span.border {
   background-color: #111;
   color: #fff;
   padding: 18px;
@@ -113,7 +121,7 @@ p {
   padding-bottom: 35px;
   
 }
-.caption p, .caption3 p, .caption2 p, .caption4 p {
+.caption p, .caption3 p, .caption2 p, .caption4 p, .caption5 p{
   color: #fff;
 }
 
@@ -254,8 +262,17 @@ a#logo-img-menu {
 .text-center-menu {
   width: 100%;
   text-align: center;
+ 
 }
-
+h1.text-center-menu {
+   padding-bottom: 25px;
+}
+span.text-center-menu {
+   padding-bottom: 50px;
+}
+p.sidemenu {
+  padding-bottom: 25px;
+}
 .navbar-brand-menu-bot {
 
 }
@@ -370,15 +387,28 @@ top: 10px;
   color: white;
   /*position: fixed;*/
   display: block;
-  padding-right: 50px;
+  padding-right: 30px;
   padding-top: 30px;
   float: right;
 
 }
+
+.pull-right.spanmenumain {
+  font-size: 50px;
+  color: white;
+  
+  display: block;
+  padding-right: 20px;
+  padding-top: 30px;
+  float: right;
+
+}
+
 .pull-right.spanmenu1 {
       color: black;
       padding-top: 10px;
       margin-top: 0px;
+      padding-right: 20px;
 
      }
 
@@ -1095,21 +1125,25 @@ img.counter {
       color: white;
      }
      .pull-right {
-      margin-right: -30px;
+      margin-left: 0px;
       font-size: 30px;
       padding-top: 20px;
       color: white;
      }
      .pull-right.spanmenumain {
-      margin-right: -30px;
+      
       font-size: 30px;
       padding-top: 50px;
+
       color: white;
      }
      .pull-right.spanmenu1 {
       color: black;
       padding-top: 0px;
       margin-top: -10px;
+
+     }
+     .pull-right.spanmen {
 
      }
     .col-xxs-12 {
@@ -1236,6 +1270,14 @@ margin: 0;
 
 }
 
+/*.caption5 {
+   position: absolute;
+  left: 0;
+  bottom: 10%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}*/
 
 .bgimg-4 {
   /* background-image: url("../images/main4_mob.jpg");*/
