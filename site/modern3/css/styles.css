@@ -1100,6 +1100,12 @@ img.counter {
       padding-top: 20px;
       color: white;
      }
+     .pull-right.spanmenumain {
+      margin-right: -30px;
+      font-size: 30px;
+      padding-top: 50px;
+      color: white;
+     }
      .pull-right.spanmenu1 {
       color: black;
       padding-top: 0px;
