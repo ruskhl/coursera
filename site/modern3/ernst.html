@@ -11,51 +11,36 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-    <header>
-        <nav id="header-nav" class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-
-                    <a href="index.html" class="pull-right visible-sm visible-md visible-lg">
-                        <div id="logo-img"></div>
-                    </a>
-	                <div class="navbar-brand">
-	                    <a href="index.html"><h1>Fucina degli Angeli</h1></a>
-	                    <p><span>Fondata da Egidio Costantini</span></p>
-	                </div>
-	                <div class="dropdown">
-	                    <div class="container-toggle" onclick="myFunction(this)">  
-	   
-						    <div class="bar1"></div>
-						    <div class="bar2"></div>
-						    <div class="bar3"></div>
-						</div>    
-					</div> 
-				</div> 
-			</div>
-	    </nav>
-	    <div id="mySidenav" class="sidenav">
-  <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
-            <a href="works.html">Works</a>
-            <a href="life.html">Life</a>
-            <a href="contact.html">Contact</a>
-        </div>	
-	</header>
+<body>
     
-      
+<p class="back-page col-xs-6"><a class="back-page" href="works.html">Back to Works</a></p>       
+ 
+
+<h3 class="text-center collaboration">Collaboration between Egidio&nbsp;Costantini and Max&nbsp;Ernst</h3>
+
+
 
 <div class="conteiner">
-    <p class="back-page"><a class="back-page" href="works.html">Back to Works</a></p>
-    <h3 class="text-center collaboration">Collaboration between Egidio&nbsp;Costantini and Max&nbsp;Ernst</h3>
+    <span class="pull-right spanmenu1" style="cursor:pointer" onclick="openNav()">&#9776; </span> 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="works.html">Works</a>
+        <a href="life.html">Life</a>
+        <a href="contact.html"><!-- Contact --></a>
+        <div class="logo-img-menu">
+            <a href="index.html" id="logo-img-menu">
+                <img src="images/logo-blue.png">
+            </a>
+        </div>
+        <div class="navbar-brand-menu">
+            <a href="index.html"><h1 class="text-center-menu">Fucina degli Angeli</h1></a>
+            <p><span>Fondata da Egidio Costantini</span></p>
+        </div>
+        <p class="sidemenu">tel:&nbsp;<strong>+49 151 68452693</strong><br>email:&nbsp;<strong>mattomu22@gmail.com</strong><br></p>
+        <div class="fb"><p class="p2 text-center col-xs-12"><a href="https://www.facebook.com/Fucina-degli-Angeli-714192112054751/" target="_blank">   <img src="images/fb.png"></a></p>
+        </div>
+    </div>  
     <div>
         <section class="cont col-lg-6 col-md-6 col-xs-12 col-xxs-12"">
 
@@ -82,25 +67,15 @@
     </div>
 </div>
 
-
-
-<footer>
-    <div id="footer" class="footer col-xs-12">
-        <div class="back-top col-xs-12">
-            <!-- <a class="top" href="#top"> Back to top</a> -->
-            
-            <hr>
-            <div class="fb-like" data-href="https://www.facebook.com/Fucina-degli-Angeli-714192112054751/" data-width="100" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-            <p>tel:&nbsp;<strong>1111111111</strong> | email:&nbsp;<strong>aaaaahbdfhbhfh@gmail.com</strong></p>
-        </div> 
-        <div class="foot">  
-        <p class="text-center">&copy; 2017 Fucina degli Angeli. All rights reserved.</p>
-        </div>
-    </div>
-</footer>          
+   
+<div class="row col-xs-12">
+    <p id="back-top">
+        <a href="#top"></span><span class="span2 glyphicon glyphicon-arrow-up"></a>
+    </p>
+</div>
          
 
-</script>
+
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
