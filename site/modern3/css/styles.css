@@ -262,8 +262,8 @@ a#logo-img-menu {
 .text-center-menu {
   width: 100%;
   text-align: center;
- 
 }
+
 h1.text-center-menu {
    padding-bottom: 25px;
 }
@@ -334,11 +334,14 @@ top: 10px;
     text-transform: uppercase;
     font-size: 1.5em;
     margin-top: 10px;
+
 }
+
 .navbar-brand-menu p {
   font-size: 1.5em;
   color: white;
 }
+
 
 
 /***********END INDEX.html****************/
@@ -578,7 +581,7 @@ img {
 div>p {
    padding-bottom: 25px;
    padding-top: 25px; 
-   padding-right: 15px;
+   /*padding-right: 15px;*/
 }
 #back-top {
   padding-top: 0px;
@@ -1104,6 +1107,9 @@ img.counter {
     .navbar-brand {
       width: 100%;
       text-align: center;
+      float: none;
+      padding-right: 0;
+      padding-left: 0;
      }
      .navbar-brand h1 {
       font-size: 1.5em;
@@ -1115,9 +1121,7 @@ img.counter {
      .navbar-brand-menu h1 {
       font-size: 1em;
      }
-     .navbar-brand {
-      float: none;
-     }
+     
      .navbar-brand p {
       font-size: 0.8em;
       text-align: center;
