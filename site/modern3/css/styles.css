@@ -398,11 +398,16 @@ top: 10px;
   float: right;
 
 }
+.fondata {
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*.pull-right*/.spanmenumain {
   font-size: 50px;
  /* color: white;*/
-  
+  overflow: hidden;
   display: block;
   padding-right: 50px;
   padding-top: 50px;
@@ -1393,10 +1398,15 @@ h1.menu-bot {
     padding-top: 0;
     margin-bottom: 0;
    }
-   .fb {
-    margin-top: -30px;
-   }
+  
+.p2.text-center.col-xs-12 p, .p2.text-center.col-xs-12 {
+  padding-top: 0;
+  margin-top: 0;
 
+}
+p .sidemenu {
+  margin-bottom: 0;
+}
    
 }   
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
