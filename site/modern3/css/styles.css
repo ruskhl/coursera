@@ -907,16 +907,24 @@ h3.collaboration {
   color: white;
   font-size: 25px;
   background: rgba(0, 0, 0, 0.5);
- /* padding-bottom: 0;
-  margin-bottom: 0;*/
+  padding-bottom: 0;
+  margin-bottom: 0;
   position: absolute;
   bottom: 0;
   text-align: center;
   width: 100%;
-  padding: 0;
-  margin: 0;
+ /* padding: 0;
+  margin: 0;*/
   
 }
+span.span.glyphicon.glyphicon-arrow-up {
+ /* margin: 0;
+  padding: 0;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-right: 2px;
+}
+
 #back-top a {
   color: white;
 }
