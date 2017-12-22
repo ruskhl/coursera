@@ -87,7 +87,7 @@ $(".span2").click(function() {
 
 
 
-$('#back-top a').click(function () {
+$('#back-top').click(function () {
             $('body,html').animate({
                 scrollTop: 0
             }, 800);
