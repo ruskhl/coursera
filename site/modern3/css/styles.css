@@ -1198,7 +1198,7 @@ img.counter {
         float: left;
         width: 100%;
   }
-  .row.col-xs-12 {
+  .row.col-xs-12.back {
     padding-top: 30px;
   }
   .row.r1.col-xs-12 {
