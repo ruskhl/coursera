@@ -879,20 +879,20 @@ h3.collaboration {
 
 
 .card {
-    position: absolute;
+   /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    width: 300px;
-    height: 400px;
+    transform: translate(-50%,-50%);*/
+    width: 600px;
+    height: 360px;
     background: #262626;
     overflow: hidden;
 }
 .card2 {
-    position: absolute;
+    /*position: absolute;
     top: 50%;
     left: 10%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);*/
     width: 300px;
     height: 400px;
     background: #262626;
@@ -938,7 +938,7 @@ h3.collaboration {
 
 }
 .card .details p, .card2 .details p {
-    margin: 20px 0 0;
+    /*margin: 10px 0 0;*/
     color: #fff;
 }
 
