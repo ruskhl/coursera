@@ -893,8 +893,8 @@ h3.collaboration {
     top: 50%;
     left: 10%;
     transform: translate(-50%,-50%);*/
-    width: 300px;
-    height: 400px;
+    width: 600px;
+    height: 360px;
     background: #262626;
     overflow: hidden;
 }
@@ -923,20 +923,20 @@ h3.collaboration {
     background: #262626;
     top: 0;
     left: 100%;
-    padding: 60px 30px;
+    padding: 30px 30px;
 }
 .card:hover .details, .card2:hover .details {
     top: 0;
     left: 0%;
 }
-.card .details h2, .card2 .details h2 {
+/*.card .details h2, .card2 .details h2 {
     color: #fff;
     text-align: center;
     margin: 0;
     padding: 0 0 10px;
     border-bottom: 2px solid #fff;
 
-}
+}*/
 .card .details p, .card2 .details p {
     /*margin: 10px 0 0;*/
     color: #fff;
