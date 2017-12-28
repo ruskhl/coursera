@@ -888,36 +888,48 @@ h3.collaboration {
     background: #262626;
     overflow: hidden;
 }
+.card2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 400px;
+    background: #262626;
+    overflow: hidden;
+}
 .card .imgBx,
-.card .details {
+.card .details,
+.card2 .imgBx,
+.card2 .details {
     width: 100%;
     height: 100%;
     position: absolute;
     box-sizing: border-box;
     transition: .5s;
 }
-.card .imgBx {
+.card .imgBx, .card2 .imgBx {
     top: 0;
     left: 0;
 }
-.card:hover .imgBx {
+.card:hover .imgBx, .card2:hover .imgBx {
     top: 0;
     left: -100%;
 }
-.card .imgBx img {
+.card .imgBx img, .card2 .imgBx img {
     width: 100%;
 }
-.card .details {
+.card .details, .card2 .details {
     background: #262626;
     top: 0;
     left: 100%;
     padding: 60px 30px;
 }
-.card:hover .details {
+.card:hover .details, .card2:hover .details {
     top: 0;
     left: 0%;
 }
-.card .details h2 {
+.card .details h2, .card2 .details h2 {
     color: #fff;
     text-align: center;
     margin: 0;
@@ -925,7 +937,7 @@ h3.collaboration {
     border-bottom: 2px solid #fff;
 
 }
-.card .details p {
+.card .details p, .card2 .details p {
     margin: 20px 0 0;
     color: #fff;
 }
