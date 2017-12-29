@@ -83,7 +83,11 @@ $(".span2").click(function() {
         scrollTop: $(".scroll_down4").offset().top},
         'slow');
 });
-
+  $(".span5").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down5").offset().top},
+        'slow');
+});
 
 
 
