@@ -107,6 +107,11 @@ function closeNav() {
 
 
 
+// document.getElementById("demo").addEventListener("click", myFunction);
+
+// function myFunction() {
+//     document.getElementById("demo").innerHTML = document.getElementById("demo").innerHTML;
+// }
 
 
 

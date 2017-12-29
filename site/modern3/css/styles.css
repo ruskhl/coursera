@@ -876,29 +876,34 @@ h3.collaboration {
 
 }
 
+.content_life {
+  padding: 20px;
+  
+}
 
 
-.card, .card2 {
+.card img, .card2 img, .card3 img {
+  height: auto;
+    width: 100%;
+    padding: 10px; 
+}
+
+.card, .card2, .card3 {
    /* position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);*/
-    width: 500px;
-    height: 360px;
+    width: 40%;
+    height: 400px;
     background: #262626;
     overflow: hidden;
+   margin-right: 5%;
+   margin-left: 5%;
+    
+   
 }
 
-.card3 {
-   /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);*/
-    width: 400px;
-    height: 500px;
-    background: #262626;
-    overflow: hidden;
-}
+
 .card .imgBx,
 .card .details,
 .card2 .imgBx,
@@ -919,6 +924,10 @@ h3.collaboration {
     top: 0;
     left: -100%;
 }
+/*.card:hover .details, .card2:hover .details, .card3:hover .details {
+   top: 0;
+    left: 100%;
+}*/
 .card .imgBx img, .card2 .imgBx img, .card3 .imgBx img {
     width: 100%;
 }
@@ -932,6 +941,8 @@ h3.collaboration {
     top: 0;
     left: 0%;
 }
+
+
 /*.card .details h2, .card2 .details h2 {
     color: #fff;
     text-align: center;
@@ -1494,10 +1505,10 @@ h1.menu-bot {
 p .sidemenu {
   margin-bottom: 0;
 }
-.card, .card2, .card3 {
+/*.card, .card2, .card3 {
   width: 100%;
   height: 100vh;
-}
+}*/
 
 }   
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
