@@ -896,7 +896,7 @@ h3.collaboration {
 
 .card img {
   height: 100%;
-    width: 100%;
+    width: auto;
     
     padding: 10px; 
 }
@@ -907,7 +907,7 @@ h3.collaboration {
     left: 50%;
     transform: translate(-50%,-50%);*/
     width: 35%;
-    height: 390px;
+    height: 44%;
     background: #262626;
     overflow: hidden;
    margin-right: 7.5%;
