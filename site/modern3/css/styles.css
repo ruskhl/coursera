@@ -893,6 +893,7 @@ h3.collaboration {
 .card img, .card2 img, .card3 img {
   height: auto;
     width: 100%;
+    
     padding: 10px; 
 }
 
@@ -902,7 +903,7 @@ h3.collaboration {
     left: 50%;
     transform: translate(-50%,-50%);*/
     width: 40%;
-    height: 400px;
+    height: 300px;
     background: #262626;
     overflow: hidden;
    margin-right: 5%;
@@ -919,7 +920,7 @@ h3.collaboration {
 .card3 .imgBx,
 .card3 .details {
     width: 100%;
-    height: 100%;
+   /* height: 100%;*/
     position: absolute;
     box-sizing: border-box;
     transition: .5s;
