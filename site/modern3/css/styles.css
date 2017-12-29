@@ -878,6 +878,7 @@ h3.collaboration {
 
 .content_life {
   padding: 20px;
+  height: 50%;
   
 }
 
@@ -935,7 +936,7 @@ h3.collaboration {
     background: #262626;
     top: 0;
     left: 100%;
-    padding: 30px 30px;
+    padding: 10px 20px;
 }
 .card:hover .details, .card2:hover .details, .card3:hover .details {
     top: 0;
@@ -952,7 +953,8 @@ h3.collaboration {
 
 }*/
 .card .details p, .card2 .details p, .card3 .details p {
-    /*margin: 10px 0 0;*/
+    margin: 0;
+    padding: 0;
     color: #fff;
 }
 
