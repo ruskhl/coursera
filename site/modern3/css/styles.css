@@ -5,7 +5,7 @@ body {
     /*font-family: 'Lora', serif;*/
     font-family: 'Quicksand', sans-serif;
     width: 100%;
-
+    /*padding: 0;*/
      margin: 0;
   /*font: 400 15px/1.8 "Lato", sans-serif;*/
   color: #777;
@@ -887,7 +887,8 @@ h3.collaboration {
 }
 
 #main-content {
-  padding: 0;
+  padding-right: 0;
+  padding-left: 0;
    height: 100%;
   width: 100%;
   
@@ -895,10 +896,16 @@ h3.collaboration {
 
 
 .card img {
-  height: 100%;
+  height: auto;
+    width: 100%;
+    
+    padding: 5px; 
+}
+.card4 img {
+  height: 100vh;
     width: auto;
     
-    padding: 10px; 
+    /*padding: 5px;*/ 
 }
 
 .card {
@@ -907,17 +914,21 @@ h3.collaboration {
     left: 50%;
     transform: translate(-50%,-50%);*/
     width: 35%;
-    height: 44%;
+    height: 43%;
     background: #262626;
     overflow: hidden;
    margin-right: 7.5%;
    margin-left: 7.5%;
     margin-top: 1%;
-    margin-bottom: 1%;
+    /*margin-bottom: 1%;*/
 
    
 }
-
+.card4 {
+  height: 100%;
+  background: #262626;
+    overflow: hidden;
+}
 
 .card .imgBx,
 .card .details {
@@ -927,11 +938,19 @@ h3.collaboration {
     box-sizing: border-box;
     transition: .5s;
 }
-.card .imgBx {
+.card4 .imgBx,
+.card4 .details {
+   /*width: 100%;*/
+  /*  height: 100%;*/
+  /* position: absolute;
+    box-sizing: border-box;
+    transition: .5s;*/
+}
+.card .imgBx, .card4 .imgBx {
     top: 0;
     left: 0;
 }
-.card:hover .imgBx {
+.card:hover .imgBx, .card4:hover .imgBx {
     top: 0;
     left: -100%;
 }
@@ -939,16 +958,16 @@ h3.collaboration {
    top: 0;
     left: 100%;
 }*/
-.card .imgBx img {
+.card .imgBx img, .card4 .imgBx img {
     width: 100%;
 }
-.card .details {
+.card .details, .card4 .details {
     background: #262626;
     top: 0;
     left: 100%;
     padding: 10px 20px;
 }
-.card:hover .details {
+.card:hover .details, .card4:hover .details  {
     top: 0;
     left: 0%;
 }
@@ -962,7 +981,7 @@ h3.collaboration {
     border-bottom: 2px solid #fff;
 
 }*/
-.card .details p {
+.card .details p, .card4 .details p {
     margin: 0;
     padding: 0;
     color: #fff;
@@ -1521,6 +1540,31 @@ p .sidemenu {
   width: 100%;
   height: 100vh;
 }*/
+.card {
+  height: 300px;
+  width: 100%;
+  margin-top: 30px;
+}
+.card img {
+  
+    min-height: auto;
+   max-width: 100%;
+   margin-right: 0;
+   margin-left: 0;
+    margin-top: 1%;   
+}
+#main-content, .bg3, .bg4 {
+ height: auto;
+ max-width: 100%;
+}
+
+
+.card .imgBx,
+.card .details {
+  height: 100%;
+}
+
+
 
 }   
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
