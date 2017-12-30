@@ -994,6 +994,9 @@ h3.collaboration {
     color: #fff;
     font-size: 1em;
 }
+  .card4 .details a:hover { 
+text-decoration-color: white;
+}
 
 
 
