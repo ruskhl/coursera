@@ -902,10 +902,19 @@ h3.collaboration {
     padding: 5px; 
 }
 .card4 img {
-  height: 100vh;
-    width: auto;
+  /*position: absolute;*/
+  /*height: auto;
+    width: 100%;*/
+   width: auto;
+   height: 100vh;
     
     /*padding: 5px;*/ 
+}
+.card4 .imgBx {
+  /*position: absolute;
+  width: 100%;
+  height: 100%;*/
+
 }
 
 .card {
@@ -924,34 +933,44 @@ h3.collaboration {
 
    
 }
+.bg4 {
+  padding: 0;
+}
 .card4 {
   height: 90vh;
-  width: 90vh;
+  width: 44%;
   background: #262626;
     overflow: hidden;
-    margin: 5vh;
+    
+    padding: 0;
+    margin-left: 3%;
+    margin-right: 3%;
 
 }
 
 .card .imgBx,
 .card .details {
     width: 100%;
-   /* height: 100%;*/
+   /* height: auto;*/
     position: absolute;
     box-sizing: border-box;
     transition: .5s;
 }
 .card4 .imgBx,
 .card4 .details {
-   /*width: 100%;*/
-    height: 100%;
+   width: 100%;
+    /*height: 100%;*/
    position: absolute;
     box-sizing: border-box;
     transition: .5s;
+
 }
 .card .imgBx, .card4 .imgBx {
     top: 0;
     left: 0;
+}
+.card4 .imgBx {
+
 }
 .card:hover .imgBx, .card4:hover .imgBx {
     top: 0;
@@ -965,7 +984,7 @@ h3.collaboration {
     width: 100%;
 }
 .card4 .imgBx img {
-    height: 100%;
+    width: 100%;
 }
 .card .details, .card4 .details {
     background: #262626;
