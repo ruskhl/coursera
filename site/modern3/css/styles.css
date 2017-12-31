@@ -12,6 +12,7 @@ body {
 }
 span.pull-right.spanmenu {
   color: white;
+  overflow: visible;
 }
 p {
   font-size: 1.2em;
@@ -422,6 +423,8 @@ top: 10px;
   width: 68%;
   margin-left: auto;
   margin-right: auto;
+
+
 }
 
 /*.pull-right*/.spanmenumain {
@@ -1224,13 +1227,7 @@ margin: 0;
 .card4 .details p {
   font-size: 4em;
 }
-span.pull-right.spanmenu {
-      color: white;
-     /* padding-top: 40px;
-      
-      padding-right: 50px;*/
 
-     }
     
 }
 
@@ -1367,13 +1364,7 @@ margin: 0;
 .card4 .details p {
   font-size: 3em;
 }
-span.pull-right.spanmenu {
-      color: white;
-     /* padding-top: 40px;
-      
-      padding-right: 50px;*/
 
-     }
 }
 /**************** Extra small devices only ***************/
 @media (max-width: 767px) {
