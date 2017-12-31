@@ -24,6 +24,7 @@ p {
 }
 .developed a p {
   color: gray;
+  font-size: 12px;
 }
 .developed a:hover {
   text-decoration: none;
