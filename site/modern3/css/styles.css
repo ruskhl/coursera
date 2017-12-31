@@ -1221,7 +1221,7 @@ margin: 0;
 .card4 .details p {
   font-size: 4em;
 }
-.pull-right.spanmenu {
+span.pull-right.spanmenu {
       color: white;
      /* padding-top: 40px;
       
@@ -1364,7 +1364,7 @@ margin: 0;
 .card4 .details p {
   font-size: 3em;
 }
-.pull-right.spanmenu {
+span.pull-right.spanmenu {
       color: white;
      /* padding-top: 40px;
       
