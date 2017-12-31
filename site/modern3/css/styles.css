@@ -12,7 +12,7 @@ body {
 }
 span.pull-right.spanmenu {
   color: white;
-  overflow: visible;
+  /*overflow: visible;*/
 }
 p {
   font-size: 1.2em;
