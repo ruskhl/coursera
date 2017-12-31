@@ -1683,6 +1683,13 @@ p .sidemenu {
 .card4 .details h4 {
   font-size: 1.2em;
 }
+.developed {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+
+
+}
 
 }   
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
