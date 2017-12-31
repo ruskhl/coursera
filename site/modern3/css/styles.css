@@ -22,6 +22,10 @@ p {
 .title h3 {
   font-size: 40px;
 }
+.developed a p {
+  color: gray;
+  
+}
 
 /**********INDEX.html*****************/
 
