@@ -1164,7 +1164,29 @@ img.counter {
         font-size: 1.2em;
         text-align: justify;
     }
-
+    .card {
+  height: 28%;
+  width: 46%;
+  margin-right: 2%;
+   margin-left: 2%;
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+.card4 {
+  height: 48vh;
+  width: 46%;
+  margin-right: 2%;
+   margin-left: 2%;
+    margin-top: 26vh;
+    margin-bottom: 26vh;
+}
+.card4 img {
+  height: 48vh;
+  width: 100%;
+}
+.card .details p {
+  font-size: 1.3em;
+}
  
     
 }
@@ -1263,6 +1285,32 @@ img.counter {
 }
 .tittle h3 {
   font-size: 25px;
+}
+.card {
+  height: 34%;
+  width: 46%;
+  margin-right: 2%;
+   margin-left: 2%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.card4 {
+  height: 48vh;
+  width: 46%;
+  margin-right: 2%;
+   margin-left: 2%;
+    margin-top: 26vh;
+    margin-bottom: 26vh;
+}
+.card4 img {
+  height: 48vh;
+  width: 100%;
+}
+.card .details p {
+  font-size: 1.2em;
+}
+.card4 .details li {
+  font-size: 0.95em;
 }
 }
 /**************** Extra small devices only ***************/
@@ -1553,8 +1601,21 @@ p .sidemenu {
   width: 100%;
 }
 .card {
-  height: 450px;
+  height: 390px;
 
+}
+.card4 {
+  height: 520px;
+
+}
+.card4 .imgBx {
+ height: 520px;
+}
+.card4 .imgBx img {
+ height: 100%;
+}
+.card .details p {
+  font-size: 1.2em;
 }
 .card4 .details li {
   font-size: 1em;
