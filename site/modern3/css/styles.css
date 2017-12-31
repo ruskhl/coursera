@@ -893,7 +893,6 @@ h3.collaboration {
   width: 100%;
   
 }
-
 .bg4 {
   padding: 0;
 }
@@ -909,8 +908,8 @@ h3.collaboration {
 .card4 img {
   
    width: auto;
-   height: 100vh;
-   vertical-align: middle;
+   height: 100%;
+  /* vertical-align: middle;*/
     
    
 }
@@ -919,25 +918,26 @@ h3.collaboration {
 
 .card {
   
-    width: 35%;
-    height: 43%;
+    width: 50%;
+    height: 60%;
     background: #262626;
     overflow: hidden;
-   margin-right: 7.5%;
-   margin-left: 7.5%;
-    margin-top: 1%;
+   margin-right: 25%;
+   margin-left: 25%;
+    margin-top: 10%;
+    
      
 }
 
 .card4 {
-  height: 90vh;
-  width: 44%;
+  height: 100vh;
+  width: 46%;
   background: #262626;
     overflow: hidden;
-    
+   
     padding: 0;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 26%;
+    margin-right: 26%;
 
 }
 
@@ -952,8 +952,8 @@ h3.collaboration {
 }
 .card4 .imgBx,
 .card4 .details {
+   height: 100%;
    width: 100%;
-   
    position: absolute;
     box-sizing: border-box;
     transition: .5s;
@@ -986,17 +986,25 @@ h3.collaboration {
     left: 0%;
 }
 
-
-
-.card .details p, .card4 .details p, .card4 .details li {
+.card .details p {
+ text-align: justify;
+}
+ .card4 .details li {
+     margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+ }
+.card .details p, .card4 .details p {
     margin: 0;
     padding: 0;
     color: #fff;
-    font-size: 1em;
+    font-size: 22px;
 }
   .card4 .details a:hover { 
 text-decoration-color: white;
 }
+
 
 
 
@@ -1061,9 +1069,7 @@ span.span.glyphicon.glyphicon-arrow-up {
 a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
   text-decoration: none;
 }
-.spanid01 {
-  content: 'glyphicon glyphicon-arrow-up';
-}
+
 .h3 {
   color: black;
   font-weight: bolder;
@@ -1164,30 +1170,44 @@ img.counter {
         font-size: 1.2em;
         text-align: justify;
     }
-    .card {
-  height: 28%;
-  width: 46%;
-  margin-right: 2%;
-   margin-left: 2%;
-    margin-top: 11%;
-    margin-bottom: 11%;
+.card {
+  
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    overflow: hidden;
+margin: 0;
+
+    
+     
 }
-.card4 {
-  height: 48vh;
-  width: 46%;
-  margin-right: 2%;
-   margin-left: 2%;
-    margin-top: 26vh;
-    margin-bottom: 26vh;
-}
-.card4 img {
-  height: 48vh;
+.card .imgBx {
   width: 100%;
+  height: 45%;
+  margin-top: 30%;
 }
 .card .details p {
-  font-size: 1.3em;
+  font-size: 4em;
 }
- 
+ .card4 {
+  
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    overflow: hidden;
+margin: 0;
+
+    
+     
+}
+.card4 .imgBx {
+  width: 100%;
+  height: 100%;
+  
+}
+.card4 .details p {
+  font-size: 4em;
+}
     
 }
 
@@ -1287,30 +1307,42 @@ img.counter {
   font-size: 25px;
 }
 .card {
-  height: 34%;
-  width: 46%;
-  margin-right: 2%;
-   margin-left: 2%;
-    margin-top: 8%;
-    margin-bottom: 8%;
+  
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    overflow: hidden;
+margin: 0;
+
+    
+     
 }
-.card4 {
-  height: 48vh;
-  width: 46%;
-  margin-right: 2%;
-   margin-left: 2%;
-    margin-top: 26vh;
-    margin-bottom: 26vh;
-}
-.card4 img {
-  height: 48vh;
+.card .imgBx {
   width: 100%;
+  height: 45%;
+  margin-top: 30%;
 }
 .card .details p {
-  font-size: 1.2em;
+  font-size: 3em;
 }
-.card4 .details li {
-  font-size: 0.95em;
+.card4 {
+  
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    overflow: hidden;
+margin: 0;
+
+    
+     
+}
+.card4 .imgBx {
+  width: 100%;
+  height: 100%;
+  /*margin-top: 30%;*/
+}
+.card4 .details p {
+  font-size: 3em;
 }
 }
 /**************** Extra small devices only ***************/
@@ -1596,62 +1628,54 @@ h1.menu-bot {
 p .sidemenu {
   margin-bottom: 0;
 }
-#main-content {
-  height: initial;
-  width: 100%;
-}
 .card {
-  height: 390px;
+  
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    overflow: hidden;
 
+  /* margin-right: 25%;
+   margin-left: 25%;*/
+    /*margin-top: 30%;*/
+    
+     
 }
-.card4 {
-  height: 520px;
-
-}
-.card4 .imgBx {
- height: 520px;
-}
-.card4 .imgBx img {
- height: 100%;
+.card .imgBx {
+  width: 100%;
+  height: 40%;
+  margin-top: 30%;
 }
 .card .details p {
-  font-size: 1.2em;
+  font-size: 1.5em;
+}
+.card4 {
+  
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    overflow: hidden;
+
+  /* margin-right: 25%;
+   margin-left: 25%;*/
+    /*margin-top: 30%;*/
+    
+     
+}
+.card4 .imgBx {
+  width: 100%;
+  height: 80%;
+  margin-top: 10%;
+}
+.card4 .details p {
+  font-size: 1.5em;
 }
 .card4 .details li {
-  font-size: 1em;
+  font-size: 1.05em;
 }
 .card4 .details h4 {
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
-/*.card, .card2, .card3 {
-  width: 100%;
-  height: 100vh;
-}*/
-/*.card {
-  height: 450px;
-  width: 100%;
-  margin-top: 30px;
-}
-.card img {
-  
-    min-height: auto;
-   max-width: 100%;
-   margin-right: 0;
-   margin-left: 0;
-    margin-top: 1%;   
-}
-#main-content, .bg3, .bg4 {
- height: auto;
- max-width: 100%;
-}
-
-
-.card .imgBx,
-.card .details {
-  height: 100%;
-}
-*/
-
 
 }   
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

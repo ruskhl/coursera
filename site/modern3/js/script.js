@@ -61,21 +61,6 @@ $(".span2").click(function() {
     $('html,body').animate({
         scrollTop: $(".scroll_down3").offset().top},
         'slow');
-//     var element = document.getElementById("id01");
-// element.innerHTML = "scroll up";
-// $(".span3").click(function() {
-   
-//     $('body,html').animate({
-
-//                 scrollTop: 0
-//             }, 800);
-//             return false;
-            
-//         });
-
-
-// var element = document.getElementById("id01");
-// element.innerHTML = "scroll down to see contacts";
  
 });
   $(".span4").click(function() {
@@ -88,6 +73,27 @@ $(".span2").click(function() {
         scrollTop: $(".scroll_down5").offset().top},
         'slow');
 });
+   $(".span6").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down6").offset().top},
+        'slow');
+});
+   $(".span7").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down7").offset().top},
+        'slow');
+});
+  $(".span8").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down8").offset().top},
+        'slow');
+});
+  $(".span9").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down9").offset().top},
+        'slow');
+});
+
 
 
 
