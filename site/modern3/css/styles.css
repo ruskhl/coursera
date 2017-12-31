@@ -902,7 +902,7 @@ h3.collaboration {
 #main-content {
   padding-right: 0;
   padding-left: 0;
-   height: 100vh;
+   height: 100%;
   width: 100%;
   
 }
