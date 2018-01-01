@@ -917,7 +917,7 @@ h3.collaboration {
 }
 
 .card img  {
-  height: 100%;
+  height: 90%;
     width: auto;
     
     padding: 5px;
@@ -1207,8 +1207,18 @@ img.counter {
     text-align: justify;
     margin-right: 50px;
 }
+.card .details p {
+ /* font-size: 3.5em;*/
+  
+}
+.card4 .details li {
+  font-size: 2em;
+  
+}
+.card .details  {
 
-   
+ 
+}   
 }
 
 
@@ -1277,7 +1287,7 @@ margin: 0;
   
 }
 .card .details p {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 .card4 .details p {
   font-size: 3.5em;
