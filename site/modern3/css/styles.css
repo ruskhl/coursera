@@ -1745,7 +1745,8 @@ p .sidemenu {
   margin-top: 30%;
 }
 .card .details p {
-  font-size: 1.45em;
+  font-size: 1.5em;
+  line-height: 1.5;
 }
 .card4 {
   
