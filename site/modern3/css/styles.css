@@ -1045,7 +1045,7 @@ h3.collaboration {
     top: 0;
     left: 100%;
     padding: 10px 20px;
-    overflow: scroll;
+   /* overflow: scroll;*/
 }
 .card:hover .details, .card4:hover .details  {
     top: 0;
