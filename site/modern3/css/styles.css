@@ -943,7 +943,7 @@ h3.collaboration {
     overflow: hidden;
    margin-right: 25%;
    margin-left: 25%;*/
-   width: 600px;
+   width: 615px;
         height: 360px;
         background: #262626;/*background-color: blue;*/
 
@@ -957,6 +957,7 @@ h3.collaboration {
         max-height:100%;
         /*overflow:auto;*/
     overflow: hidden;
+    background: transparent;
      
 }
 
@@ -982,7 +983,7 @@ h3.collaboration {
         max-width:100%;
         max-height:100%;
         overflow:hidden;
-
+         background: transparent;
 }
 
 .card .imgBx,
@@ -993,6 +994,9 @@ h3.collaboration {
     position: absolute;
     box-sizing: border-box;
     transition: .5s;
+
+
+
 }
 .card4 .imgBx,
 .card4 .details {
@@ -1013,17 +1017,33 @@ h3.collaboration {
     left: -100%;
 }
 
-.card .imgBx img {
-    width: 100%;
+.card .imgBx img, .card4 .imgBx img {
+    /*width: 100%;*/
+
+/*width: 615px;
+        height: 750px;*/
+        background-color: transparent;/*background-color: blue;*/
+
+        position:absolute; /*it can be fixed too*/
+        left:0; right:0;
+        top:0; bottom:0;
+        margin:auto;
+
+
+
+     max-width:100%;
+        max-height:100%;
+        overflow:hidden;
 }
-.card4 .imgBx img {
+/*.card4 .imgBx img {
     width: 100%;
-}
+}*/
 .card .details, .card4 .details {
     background: #262626;
     top: 0;
     left: 100%;
     padding: 10px 20px;
+    overflow: scroll;
 }
 .card:hover .details, .card4:hover .details  {
     top: 0;
