@@ -1070,7 +1070,7 @@ h3.collaboration {
     margin: 0;
     padding: 0;
     color: #fff;
-    font-size: 3.5em;
+    font-size: 2.5em;
 }
   .card4 .details a:hover { 
 text-decoration-color: white;
@@ -1277,7 +1277,7 @@ margin: 0;
   
 }
 .card .details p {
-  font-size: 4em;
+  font-size: 2em;
 }
 .card4 .details p {
   font-size: 3.5em;
