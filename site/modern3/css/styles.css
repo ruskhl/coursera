@@ -928,7 +928,7 @@ h3.collaboration {
   
    width: auto;
    height: 100%;
-  /* vertical-align: middle;*/
+ 
     
    
 }
@@ -945,6 +945,8 @@ h3.collaboration {
    margin-left: 25%;*/
    width: 615px;
         height: 360px;
+      /*  width: 1230px;
+        height: 720px;*/
         background: #262626;/*background-color: blue;*/
 
         position:absolute; /*it can be fixed too*/
@@ -1052,6 +1054,7 @@ h3.collaboration {
 
 .card .details p {
  text-align: justify;
+
 }
  .card4 .details li {
      margin: 0;
@@ -1250,9 +1253,9 @@ margin: 0;
   height: 45%;
   margin-top: 30%;
 }
-.card .details p {
+/*.card .details p {
   font-size: 4em;
-}
+}*/
  .card4 {
   
     width: 100%;
