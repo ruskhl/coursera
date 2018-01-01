@@ -29,8 +29,8 @@ p {
   font-size: 40px;
 }
 .developed a p {
-  color: gray;
-  font-size: 12px;
+  color:    #e5e6e8;
+  font-size: 14px;
 }
 .developed a:hover {
   text-decoration: none;
@@ -1745,7 +1745,7 @@ p .sidemenu {
   margin-top: 30%;
 }
 .card .details p {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .card4 {
   
