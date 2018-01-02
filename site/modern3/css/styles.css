@@ -28,18 +28,18 @@ p {
 .title h3 {
   font-size: 40px;
 }
-.developed a p {
-  color:    #e5e6e8;
+a.developed p {
+  color: gray;
   font-size: 14px;
-}
-.developed a:hover {
-  text-decoration: none;
 }
 .developed {
   position: absolute;
-  bottom: 10px;
-  right: 20px;
+  bottom: 100px;
+  width: 100%;
+  text-align: center;
+
 }
+
 
 /**********INDEX.html*****************/
 
@@ -1879,15 +1879,16 @@ p .sidemenu {
 .card4 .details h4 {
   font-size: 1.2em;
 }
-#back-top {
+/*#back-top {
   
  position: absolute;
- bottom: -20px;
-}
+ bottom: 20px;
+}*/
 .developed {
-  position: absolute;
-  bottom: 40px;
-  right: 20px;
+/*  padding: 0;
+  margin: 0;
+  left: 0;*/
+
 
 }
 

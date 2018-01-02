@@ -79,7 +79,12 @@ $('#back-top').click(function () {
             }, 800);
             return false;
         });
-
+$('#back-top-life').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
 //sidenav
 
 function openNav() {
