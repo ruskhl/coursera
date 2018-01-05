@@ -1813,7 +1813,7 @@ p .sidemenu {
 }
 .animation-element {
   top: 60vh;
-  height: 1300px;
+  /*height: 1300px;*/
 }
 .content1 li {
   font-size: 18px;
