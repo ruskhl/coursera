@@ -1111,7 +1111,7 @@ overflow: hidden;
 
 
 /*media queries for small devices*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 700px){
   /*testimonials*/
   .animation-element.slide-left.testimonial,
   .animation-element.slide-left.testimonial:nth-of-type(odd),
@@ -1119,7 +1119,7 @@ overflow: hidden;
     width: 100%;
     margin: 0px 0px 20px 0px;
   }
-  .animation-element.slide-left.testimonial .right,
+  /*.animation-element.slide-left.testimonial .right,*/
   .animation-element.slide-left.testimonial .left,
   .animation-element.slide-left.testimonial .content1,
   .animation-element.slide-left.testimonial .rating{
@@ -1137,7 +1137,7 @@ overflow: hidden;
     width: 100%;
     margin: 0px 0px 20px 0px;
   }
-  .animation-element.slide-right.testimonial .right,
+  /*.animation-element.slide-right.testimonial .right,*/
   .animation-element.slide-right.testimonial .left,
   .animation-element.slide-right.testimonial .content1,
   .animation-element.slide-right.testimonial .rating{
@@ -1376,7 +1376,7 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
  
 }
 .content1 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 
@@ -1484,27 +1484,33 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
 }
 .bgimg-6 {
   background-image: url("../images/main_life_pad_1.jpg");
-  min-height: 100%;
+  width: 100%
+  height: auto;
 }
 .bgimg-7 {
   background-image: url("../images/main_life_pad_2.jpg");
-  min-height: 100%;
+ width: 100%
+  height: auto;
 }
 .bgimg-8 {
   background-image: url("../images/main_life_pad_3.jpg");
-  min-height: 100%;
+  width: 100%
+  height: auto;
 }
 .bgimg-9 {
   /*background-image: url("../images/main_life_4.jpg");*/
-  min-height: 100%;
+  width: 100%
+  height: auto;
 }
 .bgimg-10 {
   background-image: url("../images/main_life_pad_4.jpg");
-  min-height: 100%;
+  width: 100%
+  height: auto;
 }
 .bgimg-11 {
   background-image: url("../images/main_life_5.jpg");
-  min-height: 100%;
+  width: 100%
+  height: auto;
 }
 .animation-element.slide-left.testimonial {
   margin-left: 50px;
@@ -1860,9 +1866,9 @@ p .sidemenu {
     .sidenav a {font-size: 18px;}
 }
 
-@media (min-height: 0px) and (max-height: 600px) {
-  .card .details, .card4 .details {
-    
-    overflow: scroll;
 }
+@media only screen and (max-device-width: 767px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }
