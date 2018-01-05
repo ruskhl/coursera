@@ -73,18 +73,25 @@ $(".span2").click(function() {
 
 
 
-$('#back-top').click(function () {
+// $('#back-top').click(function () {
+//             $('body,html').animate({
+//                 scrollTop: 0
+//             }, 800);
+//             return false;
+//         });
+// $('#back-top-life').click(function () {
+//             $('body,html').animate({
+//                 scrollTop: 0
+//             }, 800);
+//             return false;
+//         });
+$('#back_up').click(function () {
             $('body,html').animate({
                 scrollTop: 0
             }, 800);
             return false;
         });
-$('#back-top-life').click(function () {
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
-        });
+
 //sidenav
 
 function openNav() {
@@ -106,5 +113,51 @@ function closeNav() {
 
 
 
+// $('#change').click(function() {
+//     $('#foo').css({
+//         // 'background-color': 'red',
+//         // 'color': 'white',
+//         // 'font-size': '44px'
 
 
+//         'width': '500px' ,
+//         'height': '500px' ,
+//         'background-color': 'red' ,
+//     'position': 'relative' ,
+//     'top': '200px' ,
+//     '-webkit-animation': 'mymove' ,/* Safari 4.0 - 8.0 */
+//     '-webkit-animation-duration': '2s' , /* Safari 4.0 - 8.0 */
+//     'animation': 'mymove' ,
+//     'animation-duration': '2s'
+//     });
+// });
+// AOS.init({
+//  duration: 1200
+// });
+
+var $animation_elements = $('.animation-element');
+var $window = $(window);
+
+function check_if_in_view() {
+  var window_height = $window.height();
+  var window_top_position = $window.scrollTop();
+  var window_bottom_position = (window_top_position + window_height);
+ 
+  $.each($animation_elements, function() {
+    var $element = $(this);
+    var element_height = $element.outerHeight();
+    var element_top_position = $element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+ 
+    //check to see if this current container is within viewport
+    if ((element_bottom_position >= window_top_position) &&
+        (element_top_position <= window_bottom_position)) {
+      $element.addClass('in-view');
+    } else {
+      $element.removeClass('in-view');
+    }
+  });
+}
+
+$window.on('scroll resize', check_if_in_view);
+$window.trigger('scroll');
