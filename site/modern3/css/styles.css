@@ -945,14 +945,9 @@ h3.collaboration {
   position: absolute;
   bottom: 0;
   width: 100%;
+  cursor: pointer;
 }
-.test_work {
-  animation: MoveUpDown 3s linear infinite;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 
-}
 
 @keyframes MoveUpDown {
   0% {
@@ -971,10 +966,22 @@ h3.collaboration {
 .animation-element {
   opacity: 0;
   position: relative;
-  /*height: 100vh;*/
+  height: 100vh;
+  width: 60%;
+  text-align: justify;
  
  
-  top: 20vh;
+  /*top: 20vh;*/
+}
+
+.content1, .content2 {
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
 }
 
 
@@ -1007,14 +1014,14 @@ h3.collaboration {
 
 .animation-element.slide-left.testimonial {
   float: left;
-  width: 40%;
-  margin: 0% 1.5% 3% 1.5%;
- margin-left: 100px;
+  /*width: 60%;*/
+/*  margin: 0% 1.5% 3% 1.5%;*/
+ /*margin-left: 100px;*/
 
-  background: #F5F5F5;
+/*  background: #F5F5F5;
   padding: 15px;
 box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
-  border: solid 1px #EAEAEA;
+  border: solid 1px #EAEAEA;*/
   /*overflow: hidden;*/
 
 
@@ -1024,7 +1031,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 
 
 .animation-element.slide-left.testimonial:nth-of-type(even) {
-  width: 40%;
+ /* width: 60%;*/
   /*margin: 0% 0% 3.0% 1.5%;*/
   /*margin-left: 100px;*/
   /*overflow: hidden;*/
@@ -1033,7 +1040,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 
 .animation-element.slide-left.testimonial {
   float: left;
-  width:40%;
+  /*width:60%;*/
   /*margin-bottom: 10px;*/
  /* overflow: hidden;*/
 }
@@ -1069,35 +1076,35 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 
 .animation-element.slide-right.testimonial {
   float: right;
-  width: 40%;
+  /*width: 60%;*/
  /* margin: 0% 1.5% 3% 1.5%;*/
- margin-right: 100px;
+/* margin-right: 100px;*/
 
-  background: #F5F5F5;
+/*  background: #F5F5F5;
   padding: 15px;
 box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
-  border: solid 1px #EAEAEA;
+  border: solid 1px #EAEAEA;*/
 /*overflow: hidden;*/
 }
 
 
 .animation-element.slide-right.testimonial:nth-of-type(even) {
-  width: 100%;
+  /*width: 60%;*/
  /* margin: 0% 0% 3.0% 1.5%;*/
-  margin-right: 100px;
+  /*margin-right: 100px;*/
  /*overflow: hidden;*/
 }
 
 .animation-element.slide-right.testimonial .content1 {
-  float: left;
-  width:100%;
+  /*float: right;*/
+  /*width:60%;*/
  /* margin-bottom: 10px;*/
   /*overflow: hidden;*/
 }
-.content1 {
+.content1, .content2 {
   font-size: 1.2em;
 }
-.content1 h4 {
+.content1 h4, .content2 h4 {
   font-size: 30px;
   font-weight: bolder;
   /*overflow: hidden;*/
@@ -1106,7 +1113,9 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   font-size: 16px;
   /*overflow: hidden;*/
 }
-
+.content2 {
+ background:rgba(255,255,255,0.75);
+}
 
 
 
