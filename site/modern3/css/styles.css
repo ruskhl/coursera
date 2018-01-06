@@ -968,17 +968,15 @@ h3.collaboration {
 /*END glificon animation*/
 
 
-
-/*animation element*/
-
 .animation-element {
   opacity: 0;
   position: relative;
+  /*height: 100vh;*/
+ 
+ 
   top: 20vh;
-  overflow: hidden;
-
-
 }
+
 
 /*animation element sliding left*/
 
@@ -993,7 +991,7 @@ h3.collaboration {
   -o-transform: translate(-800px, 0px);
   -ms-transform: translate(-800px, 0px);
   transform: translate3d(-800px, 0px, 0px);
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .animation-element.slide-left.in-view {
@@ -1003,7 +1001,7 @@ h3.collaboration {
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 /*animation slide left styled for testimonials*/
 
@@ -1011,28 +1009,33 @@ h3.collaboration {
   float: left;
   width: 40%;
   margin: 0% 1.5% 3% 1.5%;
- margin-left: 150px;
+ margin-left: 100px;
 
   background: #F5F5F5;
   padding: 15px;
 box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   border: solid 1px #EAEAEA;
-  overflow: hidden;
+  /*overflow: hidden;*/
+
+
+
 }
+
+
 
 .animation-element.slide-left.testimonial:nth-of-type(even) {
   width: 40%;
-  margin: 0% 0% 3.0% 1.5%;
-  margin-left: 150px;
-  overflow: hidden;
+  /*margin: 0% 0% 3.0% 1.5%;*/
+  /*margin-left: 100px;*/
+  /*overflow: hidden;*/
  
 }
 
 .animation-element.slide-left.testimonial {
   float: left;
   width:40%;
-  margin-bottom: 10px;
-  overflow: hidden;
+  /*margin-bottom: 10px;*/
+ /* overflow: hidden;*/
 }
 
 
@@ -1050,7 +1053,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   -o-transform: translate(800px, 0px);
   -ms-transform: translate(800px, 0px);
   transform: translate3d(800px, 0px, 0px);
-  overflow: hidden;
+ /* overflow: hidden;*/
 }
 
 .animation-element.slide-right.in-view {
@@ -1060,36 +1063,36 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
-  overflow: hidden;
+ /* overflow: hidden;*/
 }
 /*animation slide right styled for testimonials*/
 
 .animation-element.slide-right.testimonial {
   float: right;
   width: 40%;
-  margin: 0% 1.5% 3% 1.5%;
- margin-right: 150px;
+ /* margin: 0% 1.5% 3% 1.5%;*/
+ margin-right: 100px;
 
   background: #F5F5F5;
   padding: 15px;
 box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   border: solid 1px #EAEAEA;
-overflow: hidden;
+/*overflow: hidden;*/
 }
 
 
 .animation-element.slide-right.testimonial:nth-of-type(even) {
   width: 100%;
-  margin: 0% 0% 3.0% 1.5%;
-  margin-right: 150px;
- overflow: hidden;
+ /* margin: 0% 0% 3.0% 1.5%;*/
+  margin-right: 100px;
+ /*overflow: hidden;*/
 }
 
 .animation-element.slide-right.testimonial .content1 {
   float: left;
   width:100%;
-  margin-bottom: 10px;
-  overflow: hidden;
+ /* margin-bottom: 10px;*/
+  /*overflow: hidden;*/
 }
 .content1 {
   font-size: 1.2em;
@@ -1097,11 +1100,11 @@ overflow: hidden;
 .content1 h4 {
   font-size: 30px;
   font-weight: bolder;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 .content1 li {
-  font-size: 18px;
-  overflow: hidden;
+  font-size: 16px;
+  /*overflow: hidden;*/
 }
 
 
@@ -1358,6 +1361,8 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
 .bgimg-11 {
   background-image: url("../images/main_life_5.jpg");
   min-height: 100%;
+
+
 }
 .animation-element.slide-left.testimonial {
   margin-left: 50px;
