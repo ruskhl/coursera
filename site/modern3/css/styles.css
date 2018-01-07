@@ -634,11 +634,15 @@ h2 {
     
 
 }
+.work-bkgd-black img {
+  height: 100vh;
+  width: auto;
+}
 
 img {
-    width: 82%;  /* Or whatever */
-    height: auto; /* Or whatever */
-    margin: auto;  /* Magic! */
+    /*width: 82%;*/  /* Or whatever */
+   /* height: auto;*/ /* Or whatever */
+    /*margin: auto;*/  /* Magic! */
 }
 
 .image-big img {
