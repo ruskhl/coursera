@@ -71,12 +71,13 @@ overflow: hidden;
    /*background-image: url("../images/main4.jpg");*/
    background-color: black;
   height: 100%; 
-  width: 100%;
+  /*width: 100%;*/
   
   /*min-height: 100%;*/
 }
 .bgimg-5 {
   background-color: black;
+  height: 100%;
 
 }
 
