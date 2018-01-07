@@ -640,9 +640,9 @@ h2 {
 }
 
 img {
-    /*width: 82%;*/  /* Or whatever */
-   /* height: auto;*/ /* Or whatever */
-    /*margin: auto;*/  /* Magic! */
+    width: 82%;  /* Or whatever */
+    height: auto; /* Or whatever */
+    margin: auto;  /* Magic! */
 }
 
 .image-big img {
