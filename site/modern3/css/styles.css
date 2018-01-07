@@ -746,12 +746,14 @@ html {
   right: 0%;
   background:#ace;
   padding-top:20px;
-  padding-right: 0;
- /* width: 200px;
-  width: 13.5%;*/
+  padding-right: 0px;
+
+  width: 200px;
+  width: 13.5%;
   background-color: transparent;
   border: none;
   padding-left: 0;
+
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     background-color: transparent;
@@ -1197,6 +1199,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   height: 47vh;
 
 }
+
 /*.animation-element-face.slide-left.testimonial:hover,
 .animation-element-face.slide-left.testimonial:active{
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
@@ -1210,29 +1213,41 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 .animation-element-face.slide-left.testimonial:nth-of-type(even) {
   width: 48.5%;
   margin: 0% 0% 3.0% 1.5%;
-}
+}*/
 
-.animation-element-face.slide-left.testimonial .header{
+.animation-element.slide-left.testimonia2 .header-life {
   float: left;
   width: 100%;
   margin-bottom: 10px;
 }
-.animation-element-face.slide-left.testimonial .left{
+.header-life h5 {
+/*font-size: 16px;*/
+  text-transform: uppercase;
+  color: black;
+  font-weight: bolder;
+  font-size: 16px;
+  /*font-weight: bolder;*/
+/*  font: 16px "Lato", sans-serif;*/
+     /*font-family: 'Quicksand', sans-serif;*/
+}  
+/*.animation-element-face.slide-left.testimonial .left{
   float: left;
   margin-right: 15px;
 }
 .animation-element-face.slide-left.testimonial .right{
   float: left;
+}*/
+
+.animation-element.slide-left.testimonial2 img {
+  width: 100%;
+  height: auto;
+
+
+  /*border-radius: 50%;
+  box-shadow: 0px 1px 3px rgba(51, 51, 51, 0.5);*/
 }
 
-.animation-element-face.slide-left.testimonial img {
-  width: 65px;
-  height: 65px;
-  border-radius: 50%;
-  box-shadow: 0px 1px 3px rgba(51, 51, 51, 0.5);
-}
-
-.animation-element-face.slide-left.testimonial h3 {
+/*.animation-element-face.slide-left.testimonial h3 {
   margin: 0px 0px 5px 0px;
 }
 
@@ -1281,6 +1296,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 .sidebar:after {
     content: '';
     display: table;
+    /*overflow-x: hidden;*/
 }
 
 /*.scrolldown, {
