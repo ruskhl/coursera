@@ -454,6 +454,19 @@ top: 10px;
 
 
 }
+.home_btm {
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+a.home_btm:hover {
+  text-decoration: none;
+  color: white;
+/* margin-top: 50px;*/
+}
 
 /*.pull-right*/.spanmenumain {
   font-size: 50px;
@@ -467,7 +480,7 @@ top: 10px;
 }
 .pull-right.spanmenu {
       color: white;
-      padding-top: 40px;
+      padding-top: 50px;
       
       padding-right: 50px;
 
@@ -591,16 +604,7 @@ p .sidemenu {
     font-size: 1.4em;
     font-style: italic;
 }
-/*.all-content {position: relative;}*/
 
-.work-content {
-    position: absolute;
-    top: 50%;
-    left: 85%;
-    height: 30%;
-    width: 35%;
-    margin: -15% 0 0 -25%;
-}
 .content-link {
     text-transform: uppercase;
 }
@@ -609,8 +613,29 @@ p .sidemenu {
 }
 .article-content {
     font-size: 1.2em;
-    line-height: 150%;
+   /* line-height: 150%;*/
 }
+.articlle {
+  /*height: 100vh;*/
+}
+.work-content {
+ /* opacity: 0;*/
+ /* position: relative;
+  top: 35vh;*/
+  /*height: 90vh;
+  margin-top: 5vh;*/
+  /*width: 50%;*/
+  /*text-align: justify;*/
+ /* margin: 0;*/
+   /* position: absolute;
+    top: 50%;
+    left: 50%;*/
+    /*-ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+
+
+}
+
 
 
 h2 {
@@ -621,9 +646,10 @@ h2 {
    font-weight: 400;
 }
 .all-content {
-    width: 100%;
+   /* width: 100%;*/
 
     /*background-color: red;*/
+   /* padding: 30px;*/
 
 }
 .work-bkgd-black {
@@ -748,12 +774,12 @@ html {
 }*/
 #extras {
   position: absolute;
-  right: 0%;
+  right: 3%;
   background:#ace;
   padding-top:20px;
   padding-right: 0px;
-
-  width: 200px;
+/*width: 100%;*/
+  width: 250px;
   width: 13.5%;
   background-color: transparent;
   border: none;
@@ -923,6 +949,7 @@ h3.collaboration {
 
 
 /*********************LIFE**********/
+
 .word-said {
     font-style: italic;
     color: gray;
@@ -1442,9 +1469,12 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
    .navbar-brand p {
       font-size: 1.5em;
     }
-
-   img {
+  .work-bkgd-black img {
     width: 100%;
+    height: auto;
+   }
+   img {
+   /* width: 100%;*/
    }
    .bgimg-1, .bg {
     background-image: url("../images/main_works_pad_pro.jpg");
@@ -1532,9 +1562,13 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
     /*margin: 0px 0px 0px 50px;*/
 
 }
+.work-bkgd-black img {
+    width: 100%;
+    height: auto;
+   }
  
     img {
-    width: 100%;
+    /*width: 100%;*/
    }
    .title-main {
     width: 70%;
@@ -1704,6 +1738,14 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
       padding-top: 20px;
       /*color: white;*/
      }
+     .home_btm {
+  font-size: 30px;
+ /* color: white;
+  text-transform: uppercase;*/
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
      /*.pull-right*/.spanmenumain {
       
       font-size: 30px;
@@ -1746,8 +1788,16 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
     padding-left: 20px;
     left: 0%;
    }
-   img {
+  /* img {
     width: 100%;
+   }*/
+   .all-content img {
+   /* width: 100%;
+    height: auto;*/
+   }
+   .work-bkgd-black img {
+    width: 100%;
+    height: auto;
    }
    .back-to-top {
 
