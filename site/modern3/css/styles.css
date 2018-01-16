@@ -31,8 +31,13 @@ p {
 a.developed p {
   color: gray;
   font-size: 14px; 
-  margin-top: 200px;
+
+  /*margin-top: 200px;*/
 }
+.developed {
+  
+}
+
 
 
 
@@ -151,7 +156,7 @@ overflow: hidden;
 
 
 .caption3 span.border, .caption2 span.border, .caption span.border, .caption4 span.border, .caption5 span.border {
-  background-color: #111;
+  /*background-color: #111;*/
   color: #fff;
   padding: 18px;
   font-size: 25px;
