@@ -30,15 +30,10 @@ p {
 }
 a.developed p {
   color: gray;
-  font-size: 14px;
+  font-size: 14px; 
+  margin-top: 200px;
 }
-.developed {
-  position: absolute;
-  bottom: 100px;
-  width: 100%;
-  text-align: center;
 
-}
 
 
 /**********INDEX.html*****************/
@@ -135,7 +130,7 @@ overflow: hidden;
 .caption4 {
   position: absolute;
   left: 0;
-  top: 12%;
+  top: 5%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -986,6 +981,7 @@ h3.collaboration {
 }
 
 
+
 @keyframes MoveUpDown {
   0% {
     bottom: 0;
@@ -997,6 +993,29 @@ h3.collaboration {
     bottom: 0;
   }
 }
+/*.testtest {
+  animation: MoveUpDownn 3s linear infinite;
+  position: absolute;
+  bottom: 30px;
+  width: 100px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+@keyframes MoveUpDownn {
+  0% {
+    bottom: 30px;
+  }
+  50% {
+    bottom: 60px;
+  }
+  100% {
+    bottom: 30px;
+  }*/
+  /*span.spanups {
+    color: white;
+  }*/
 /*END glificon animation*/
 /*.scroll_down1, .scroll_down2, .scroll_down3, .scroll_down4, .scroll_down5 {
   position: relative;
@@ -1364,6 +1383,7 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   text-align: center;
   width: 100%;
   background-color: transparent;
+
 }
 .scrolldown.trans2 {
    text-transform: uppercase;
@@ -1911,7 +1931,7 @@ margin: 0;
 .caption2 {
   position: absolute;
   left: 0;
-  top: 10%;
+  top: 5%;
   
 
 }
