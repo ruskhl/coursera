@@ -1050,6 +1050,9 @@ h3.collaboration {
     transform: translate(-50%, -50%);
 
 }
+.content1 {
+  width: 80%;
+}
 
 
 /*animation element sliding left*/
@@ -1486,7 +1489,12 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
     text-align: justify;
     margin-right: 50px;
 }
-
+.content1, .content2  {
+  font-size: 2em;
+}
+.content1 li {
+  font-size: 1.1em;
+}
 }
 
 
@@ -1565,11 +1573,15 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
 .content1 {
   font-size: 20px;
 }
+
 .animation-element.slide-left.testimonial2 {
 
   width: 44%;
   height: 22vh;  
   }
+  .content2 {
+  width: 80%;
+}
 
 }
 
@@ -1744,6 +1756,9 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
     padding-right: 30px;
     padding-top: 30px;
   }
+  .content2 {
+  width: 80%;
+}
 }
 /**************** Extra small devices only ***************/
 @media (max-width: 767px) {
@@ -2163,6 +2178,9 @@ p .sidemenu {
 }
 .animation-element {
   height: auto;
+}
+.content1 {
+  width: 95%;
 }
 .animation-element.slide-left.testimonial2 {
 
