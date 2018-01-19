@@ -779,20 +779,25 @@ html {
     content: '';
     display: table;
 }*/
-#extras {
+#extras, .nav.navbar-nav {
   position: absolute;
   right: 0%;
   background:#ace;
   padding-top:20px;
-  padding-right: 0px;
+  padding-right: 10px;
 /*width: 100%;*/
   /*width: 300px;*/
-  width: 13.5%;
+ /* width: 13.5%;*/
   background-color: transparent;
   border: none;
   padding-left: 0;
 
 }
+/*ul.nav.navbar-nav {
+  width: 13.5%;
+  position: absolute;
+  right: 0%;
+}*/
 #extras li {
   float: right;
   clear: right;
