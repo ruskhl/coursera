@@ -1042,9 +1042,12 @@ h3.collaboration {
   position: relative;
   height: 100vh;
 }*/
-.scroll_down2 {
-  height: 100vh;
-}
+/*.scroll_down2 {
+position: relative;
+height: 100vh;
+}*/
+
+
 .animation-element {
   opacity: 0;
   position: relative;
