@@ -34,9 +34,12 @@ a.developed p {
 
   /*margin-top: 200px;*/
 }
-.developed {
-  
+.Developed {
+   position: absolute;
+  bottom: 0;
+  width: 100%;
 }
+
 
 
 
@@ -135,8 +138,10 @@ overflow: hidden;
 .caption4 {
   position: absolute;
   left: 0;
-  top: 5%;
+  padding-top: 5%;
+  /*top: 5%;*/
   width: 100%;
+  height: 100vh;
   text-align: center;
   color: #000;
 
@@ -997,7 +1002,7 @@ h3.collaboration {
 .test {
   animation: MoveUpDown 3s linear infinite;
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
   width: 100%;
   cursor: pointer;
 }
@@ -1006,13 +1011,13 @@ h3.collaboration {
 
 @keyframes MoveUpDown {
   0% {
-    bottom: 0;
+    bottom: 15px;
   }
   50% {
-    bottom: 30px;
+    bottom: 35px;
   }
   100% {
-    bottom: 0;
+    bottom: 15px;
   }
 }
 /*.testtest {
