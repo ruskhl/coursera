@@ -1042,10 +1042,12 @@ h3.collaboration {
   position: relative;
   height: 100vh;
 }*/
-/*.scroll_down2 {
-position: relative;
+.scroll_down2 {
+position: absolute;
+top: 0%;
+width: 100%;
 height: 100vh;
-}*/
+}
 
 
 .animation-element {
@@ -2097,6 +2099,7 @@ p .sidemenu {
   /*width: 100vh;*/
   
 }
+
 .animation-element.slide-right.testimonial.testimonial22 {
   position: absolute;
   top: 70%;
@@ -2182,7 +2185,12 @@ p .sidemenu {
 .bgimg-8 {
   background-image: url("../images/main_life_mob_3.jpg");
   min-height: 950px;
+
 }
+.scroll_down2 {
+  min-height: 950px;
+}
+
 .bgimg-9 {
  /* min-height: 950px;*/
  min-height: 1300px;
