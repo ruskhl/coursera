@@ -169,7 +169,7 @@ overflow: hidden;
   /*background-color: #111;*/
   color: #fff;
   padding: 18px;
-  font-size: 25px;
+  font-size: 35px;
   letter-spacing: 10px;
   padding-bottom: 35px;
   
@@ -302,6 +302,16 @@ color: black;
     margin-left: auto;
 
 
+
+}
+p.p2.text-center.col-xs-12 {
+  padding-top: 0;
+}
+div.navbar-brand-menu-bot p {
+  padding-top: 0;
+}
+h1.menu-bot {
+  margin-top: 0;
 }
 #logo-img-menu {
   background: url('../images/logo-blue.png') no-repeat;
@@ -546,7 +556,7 @@ p .sidemenu {
 
 .bg1 {
     /* The image used */
-    background-image: url("../images/main2.png");
+    background-image: url("../images/main_works.jpg");
 
     /* Full height */
     height: 100%; 
@@ -880,13 +890,7 @@ h3.title {
     color: gray;
 }
 .vetro {                      /*costantini.html!!!!!*/
-  /*border: 1px solid red;*/
-  clear: right;
-  margin: 20px auto 20px;
-  overflow: hidden;
-  width: 700px;
-  text-align: center;
-  width: 100%;
+ font-size: 50px;
 }
 .signature img {                  /*costantini.html!!!!!*/
   /*border: 1px solid red;*/
@@ -1071,7 +1075,9 @@ height: 100vh;
  /* margin-left: 10%;*/
   text-align: justify;
 
+
 }
+
 
 .content1, .content2 {
   margin: 0;
@@ -1085,7 +1091,10 @@ height: 100vh;
 .content1 {
   width: 80%;
 }
+.content1.works {
+  color: #fff;
 
+}
 
 /*animation element sliding left*/
 
@@ -1190,6 +1199,14 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   border: solid 1px #EAEAEA;*/
 /*overflow: hidden;*/
+}
+
+.animation-element.slide-right.works {
+  float: right;
+  height: 25vh;
+  margin-bottom: 5vh;
+
+ 
 }
 
 
