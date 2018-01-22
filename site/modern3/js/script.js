@@ -77,6 +77,42 @@ $(".span22").click(function() {
 
 
 
+$(".JeanArp").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#JeanArp").offset().top},
+        'slow');
+});
+$(".GeorgesBraque").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#GeorgesBraque").offset().top},
+        'slow');
+});
+$(".MarcChagall").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#MarcChagall").offset().top},
+        'slow');
+});
+$(".MaxErnst").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#MaxErnst").offset().top},
+        'slow');
+});
+$(".LucioFontana").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#LucioFontana").offset().top},
+        'slow');
+});
+
+ $(".LeCorbusier").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#LeCorbusier").offset().top},
+        'slow');
+});
+ $(".PabloPicasso").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#PabloPicasso").offset().top},
+        'slow');
+});
 
 // $('#back-top').click(function () {
 //             $('body,html').animate({
