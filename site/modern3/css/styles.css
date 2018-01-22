@@ -188,7 +188,9 @@ h3 {
 }
 /*************NAVIGATION*********/
 /*****MENU*******/
-
+#mySidenav a {
+  padding-left: 8px;
+}
 #myNavbar .navbar-nav a {
   text-transform: uppercase;
   font-size: 30px;
@@ -2063,11 +2065,14 @@ margin: 0;
    .caption {
   position: absolute;
   left: 0;
-  top: 15%;
+  top: 25%;
   width: 100%;
   text-align: center;
   color: #000;
 
+}
+.caption h3 {
+  
 }
 
 h1.menu-bot {
@@ -2279,7 +2284,7 @@ p .sidemenu {
   width: 300px;
 }
 div.content_works {
-  margin-top: 32vh;
+  margin-top: 30vh;
   height: 30vh;
 width: 100%;
 /*float: none;*/
@@ -2300,9 +2305,10 @@ width: 100%;
   width: 70%;
 }
 #logo-img-menu {
-  padding-bottom: 0;
+  margin-bottom: 8px;
   height: 80px;
 }
+
 
  /* .animation-element.slide-right.testimonial.test {
   position: absolute;
