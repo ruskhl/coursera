@@ -1210,6 +1210,7 @@ div.content_works {
   height: 50vh;
 width: 40%;
 float: right;
+text-align: center;
 
 
 }
@@ -1217,12 +1218,14 @@ float: right;
   color: #fff;
   margin-bottom: 0;
   padding-bottom: 0;
+  
 }
 .translated {
   font-size: 25px;
-  color: #fff;
+  color: gray;
   font-style: italic;
   padding-top: 0;
+  
 }
 .animation-element.slide-right.testimonial:nth-of-type(even) {
   /*width: 60%;*/
@@ -1651,9 +1654,13 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
 .content1 li {
   font-size: 1.1em;
 }
-.animation-element.slide-right.works {
-  width: 60%;
+.vetroimg {
+  width: 300px;
 }
+div.content_works {
+  width: 50%;
+}
+
 
 }
 
@@ -1831,9 +1838,13 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
   .content2 {
   width: 80%;
 }
-.animation-element.slide-right.works {
-  width: 80%;
+.vetroimg {
+  width: 300px;
 }
+div.content_works {
+ width: 80%;
+}
+
 }
 /**************** Extra small devices only ***************/
 @media (max-width: 767px) {
@@ -2264,11 +2275,30 @@ p .sidemenu {
 .content1 {
   width: 95%;
 }
-.animation-element.slide-right.works {
-   width: 100%;
-   text-align: center;
- }
+.vetroimg {
+  width: 300px;
+}
+div.content_works {
+  margin-top: 37vh;
+  height: 30vh;
+width: 100%;
+/*float: none;*/
 
+
+}
+.vetro {
+  font-size: 2.5em;
+  
+}
+.translated {
+  font-size: 1.1em;
+ 
+}
+.vetroimg {
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+}
 .animation-element.slide-left.testimonial2 {
 
   /*width: 48%;*/
