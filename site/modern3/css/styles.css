@@ -2308,7 +2308,9 @@ width: 100%;
   margin-bottom: 8px;
   height: 80px;
 }
-
+.tel {
+  font-size: 15px;
+}
 
  /* .animation-element.slide-right.testimonial.test {
   position: absolute;
