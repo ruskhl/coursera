@@ -33,6 +33,11 @@ $(".span2").click(function() {
         scrollTop: $(".scroll_down2").offset().top},
         'slow');
 });
+$(".span22").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down22").offset().top},
+        'slow');
+});
  $(".span3").click(function() {
     $('html,body').animate({
         scrollTop: $(".scroll_down3").offset().top},
@@ -160,6 +165,7 @@ function check_if_in_view() {
 
 $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
+
 
 
 
