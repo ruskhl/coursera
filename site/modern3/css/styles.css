@@ -1093,6 +1093,7 @@ height: 100vh;
 }
 .content1.works {
   color: #fff;
+ 
 
 }
 
@@ -1201,16 +1202,28 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 /*overflow: hidden;*/
 }
 
-.animation-element.slide-right.works {
-  float: right;
-  height: 25vh;
-  margin-bottom: 5vh;
-  width: 40%;
-  padding-right: 0;
-  margin-right: 0;
+.vetroimg {
+  width: 300px;
 }
+div.content_works {
+  margin-top: 50vh;
+  height: 50vh;
+width: 40%;
+float: right;
 
 
+}
+.vetro {
+  color: #fff;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.translated {
+  font-size: 25px;
+  color: #fff;
+  font-style: italic;
+  padding-top: 0;
+}
 .animation-element.slide-right.testimonial:nth-of-type(even) {
   /*width: 60%;*/
  /* margin: 0% 0% 3.0% 1.5%;*/
