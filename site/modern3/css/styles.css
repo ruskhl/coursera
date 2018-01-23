@@ -986,6 +986,78 @@ h3.collaboration {
 
 
 /*********************LIFE**********/
+.animation-element.slide-left.testimonial2:hover {
+  /*box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);*/
+  opacity: 0.5;
+  background-color: #d1d2d3;
+}
+
+/*modal*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    padding-bottom: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    /*background-color: #fefefe;*/
+     background-image: url("../images/modal.jpg");
+    
+  /*  background-color: black;*/
+    margin: auto;
+    padding: 20px;
+    /*border: 1px solid #888;*/
+    width: 80%;
+    height: 100%;
+    /*overflow: hidden;*/
+
+
+    position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.modall {
+  color: #fff;
+  font-size: 2em;
+  background-color:  #25424242;
+  width: 80%;
+  margin-left: 10%;
+  
+}
+
+
+/* The Close Button */
+.close {
+    color: #fff;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*end modal*/
 
 .word-said {
     font-style: italic;
@@ -2312,6 +2384,12 @@ width: 100%;
 }
 .tel {
   font-size: 15px;
+}
+.modall {
+ 
+  font-size: 1.3em;
+  width: 100%;
+  margin-left: 0;
 }
 
  /* .animation-element.slide-right.testimonial.test {
