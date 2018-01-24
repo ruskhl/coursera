@@ -1024,7 +1024,7 @@ h3.collaboration {
 
 
     position: relative;
-  opacity: 1;
+ /* opacity: 1;*/
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1048,7 +1048,10 @@ h3.collaboration {
     float: right;
     font-size: 50px;
     font-weight: bold;
-}
+    overflow: visible;
+    opacity: 1;
+  }
+ 
 
 .close:hover,
 .close:focus {
@@ -2391,6 +2394,11 @@ width: 100%;
   width: 100%;
   margin-left: 0;
 }
+.modal-content {
+    height: 100%;
+    width: auto;
+    
+    }
 
  /* .animation-element.slide-right.testimonial.test {
   position: absolute;
