@@ -14,109 +14,60 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i" rel="stylesheet">
 </head>
 
-<body>
+
  
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-  <!-- <div class="bg1"> -->
-<!-- Hero -->
-  <section class="et-hero-tabs">
-    <h1>STICKY SLIDER NAV</h1>
-    <h3>Sliding content with sticky tab nav</h3>
-    <div class="et-hero-tabs-container">
-      <a class="et-hero-tab" href="#tab-es6">ES6</a>
-      <a class="et-hero-tab" href="#tab-flexbox">Flexbox</a>
-      <a class="et-hero-tab" href="#tab-react">React</a>
-      <a class="et-hero-tab" href="#tab-angular">Angular</a>
-      <a class="et-hero-tab" href="#tab-other">Other</a>
-      <span class="et-hero-tab-slider"></span>
+
+
+
+<div id="section_main" class="wrapper">
+  <video autoplay muted loop id="myVideo">
+    <source src="images/yellow.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="800">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
     </div>
-  </section>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="li1"><a href="#section1">My Work</a></li>
+          <li class="li2"><a href="#section2">About Me</a></li>
+          <li class="li3"><a href="#section3">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
 
-  <!-- Main -->
-  <main class="et-main">
-    <section class="et-slide" id="tab-es6">
-      <h1>ES6</h1>
-      <h3>something about es6</h3>
-    </section>
-    <section class="et-slide" id="tab-flexbox">
-      <h1>Flexbox</h1>
-      <h3>something about flexbox</h3>
-    </section>
-    <section class="et-slide" id="tab-react">
-      <h1>React</h1>
-      <h3>something about react</h3>
-    </section>
-    <section class="et-slide" id="tab-angular">
-      <h1>Angular</h1>
-      <h3>something about angular</h3>
-    </section>
-    <section class="et-slide" id="tab-other">
-      <h1>Other</h1>
-      <h3>something about other</h3>
-    </section>
-  </main>
-   <!--  <div class="content">
-      <h1>Hi! I am Ruslana. I love </h1>
-      <h1>
-        <div class="typewrite" data-period="2000" data-type='["to create.", "to design.", "to develop." ]'>
-          <span class="wrap"></span>
-        </div>
-      </h1>
-    </div>  
-    <div class="all"> 
-      <div class="myWork">
-        <a href="#">
-          <span>Do you want to know how I do it? Click&nbsp;here!</span>
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <span class="glyphicon glyphicon-menu-down"></span>
-        </a>
-      </div>
-    </div> -->
-<!--   </div>
-  
-  <div class="bg2"> -->
+<div id="section1" class="bg-1">
+  <h1>My Latest Work</h1>
+  <div class="col-xs-12">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    </div>
+  </div>    
+</div>
+<div id="section2" class="bg-2">
+  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section3" class="bg-3">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
 
-    <!-- <div class="container col-xs-12">
-      <h3 class="header1">My Expertise</h3>
-      <p class="p1">I've got chops in all phases of the design process.</p>
-      <div class="container col-lg-4 col-md-4 col-xs-12">
-        <h3 class="header2"><span class="glyphicon glyphicon-thumbs-up"></span></br>Ideas</h3>
-        <p class="p2">I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. After all, that's where the majority of amazing user experiences start.</p>
-      </div>
-      <div class="container col-lg-4 col-md-4 col-xs-12">
-        <h3 class="header2"><span class="glyphicon glyphicon-education"></span></br>UX/UI</h3>
-        <p class="p2">I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm a minimalist who truly believes that less is more.</p>
-      </div>
-      <div class="container col-lg-4 col-md-4 col-xs-12">
-        <h3 class="header2"><span class="glyphicon glyphicon-menu-left"></span><span class="glyphicon glyphicon-italic"></span><span class="glyphicon glyphicon-menu-right"></span></br>Code</h3>
-        <p class="p2">I design in the browser with HTML(5), CSS(3) and a touch of JavaScript. I love coding things from scratch, but I can work with front-end frameworks like Bootstrap too.</p>
-      </div>
-    </div> -->
- <!--  </div>  -->   
-  
-
-    
-  <!-- <div class="bg3"> 
-    <div class="image1 container col-xs-12 visible-lg visible-md">
-      <img class="image1" src="images/2.JPG">
-    </div>  
-    <div class="image1 container col-xs-12 visible-xs visible-xxs">
-      <img class="image1" src="images/2_mob.JPG">
-    </div> 
-  </div> 
-  
-  <div class="container col-xs-12">
-      <p class="text-center">email:&nbsp;<strong>ruslana.khlopuk@gmail.com</strong></p>
-      </div> 
-      <div class="foot">  
-        <p class="text-center">&copy; 2017 Ruslana Khlopuk. All rights reserved.</p>
-  </div>      
-   -->
-
-  
 </body>
 
 
