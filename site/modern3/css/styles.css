@@ -728,6 +728,9 @@ div>p {
 .row.r2.col-xs-12 {
   padding-top: 50px;
 }
+.row.r3.col-xs-12 {
+  padding-top: 0px;
+}
 #wrapper {
     
     width: 100%;
