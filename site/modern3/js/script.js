@@ -40,6 +40,12 @@ $(".span22").click(function() {
 });
  $(".span3").click(function() {
     $('html,body').animate({
+        scrollTop: $(".scroll_down221").offset().top},
+        'slow');
+ 
+});
+  $(".span31").click(function() {
+    $('html,body').animate({
         scrollTop: $(".scroll_down3").offset().top},
         'slow');
  
