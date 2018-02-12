@@ -138,6 +138,15 @@ overflow: hidden;
   color: #000;
 
 }
+.caption22 {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+
+}
 .caption3 {
   position: absolute;
   left: 0;
@@ -165,13 +174,13 @@ overflow: hidden;
   text-align: center;
   color: #000;
 }
-.caption a:hover, .caption3 a:hover, .caption2 a:hover, .caption4 a:hover, .caption5 a:hover {
+.caption a:hover, .caption3 a:hover, .caption2 a:hover, .caption22 a:hover, .caption4 a:hover, .caption5 a:hover {
   text-decoration: none;
 }
 
 
 
-.caption3 span.border, .caption2 span.border, .caption span.border, .caption4 span.border, .caption5 span.border {
+.caption3 span.border, .caption2 span.border, .caption22 span.border, .caption span.border, .caption4 span.border, .caption5 span.border {
   /*background-color: #111;*/
   color: #fff;
   padding: 18px;
@@ -181,6 +190,10 @@ overflow: hidden;
   text-transform: uppercase;
   font-weight: bolder;
   
+}
+.caption22 span.border {
+  font-size: 22px;
+  text-transform: initial;
 }
 .caption p, .caption3 p, .caption2 p, .caption4 p, .caption5 p{
   color: #fff;
