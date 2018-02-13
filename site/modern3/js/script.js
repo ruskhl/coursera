@@ -88,7 +88,11 @@ $(".span3").click(function() {
 });
 
 
-
+$(".EgidioCostantini").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#EgidioCostantini").offset().top},
+        'slow');
+});
 $(".JeanArp").click(function() {
     $('html,body').animate({
         scrollTop: $("#JeanArp").offset().top},
