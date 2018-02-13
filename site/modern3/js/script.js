@@ -38,24 +38,23 @@ $(".span22").click(function() {
         scrollTop: $(".scroll_down22").offset().top},
         'slow');
 });
-$(".span3").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".scroll_down3").offset().top},
-        'slow');
- 
- });
-//  $(".span3").click(function() {
-//     $('html,body').animate({
-//         scrollTop: $(".scroll_down221").offset().top},
-//         'slow');
- 
-// });
-//   $(".span31").click(function() {
+// $(".span3").click(function() {
 //     $('html,body').animate({
 //         scrollTop: $(".scroll_down3").offset().top},
 //         'slow');
  
-// });
+//  });
+ $(".span3").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down221").offset().top},
+        'slow');
+ 
+});
+  $(".span31").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scroll_down3").offset().top},
+        'slow');
+});
   $(".span4").click(function() {
     $('html,body').animate({
         scrollTop: $(".scroll_down4").offset().top},
@@ -86,8 +85,6 @@ $(".span3").click(function() {
         scrollTop: $(".scroll_down9").offset().top},
         'slow');
 });
-
-
 $(".EgidioCostantini").click(function() {
     $('html,body').animate({
         scrollTop: $("#EgidioCostantini").offset().top},
