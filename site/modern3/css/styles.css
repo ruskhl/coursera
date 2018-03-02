@@ -32,6 +32,7 @@ p {
 }
 .title h3 {
   font-size: 40px;
+
 }
 a.developed p {
   color: gray;
@@ -398,13 +399,15 @@ h1.menu-bot {
     width: 100%;
 position: absolute;
 top: 10px;
+font-size: 1.5em;
+
    
 
   }
 .navbar-brand h1 { /*Fucina*/
   color: #2e36d1;
   font-size: 3em;
-
+  
   text-transform: uppercase;
 
 
@@ -415,6 +418,7 @@ top: 10px;
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
+
 
 }
 .navbar-brand-menu h1 {
@@ -501,6 +505,7 @@ top: 10px;
   padding-right: 0px;
   /*padding-top: 30px;*/
   float: right;
+  
 
 }
 .fondata {
@@ -995,6 +1000,8 @@ h3.title {
 h3.collaboration {
     font-weight: 600;
     padding-top: 80px;
+
+    
 }
 .main-text-main-div {
     width: 100%;
@@ -1625,6 +1632,127 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
 
 
 
+/*lang*/
+
+/*select {
+  font-size: 2em;
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  position: absolute;
+  right: 50px;
+  top: 150px;
+  
+
+}*/
+
+/*textarea:focus, input:focus{
+    outline: none;
+
+
+}
+*:focus {
+    outline: none;
+
+}*/
+/*select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}*/
+
+/*select:active, select:focus {
+  border-color: transparent;
+}*/
+/*select:active, select:focus {
+  border-color: transparent;
+}
+.onchange {
+  border-color: none;
+  background-color: transparent;
+}
+option.value:focus {
+  border-color: none;
+  background-color: transparent;
+}*/
+
+
+
+
+.languagepicker {
+  background-color: #FFF;
+  /*background-color: transparent;*/
+  display: inline-block;
+  padding: 0;
+  height: 40px;
+  overflow: hidden;
+  transition: all .3s ease;
+  margin: 0 50px 10px 0;
+  vertical-align: top;
+  float: left;
+/*  position: absolute;
+  right: 0px;
+  top: 150px;*/
+  position: absolute;
+  right: 45px;
+  top: 65px;
+  width: 140px;
+}
+.anotherpos {
+  position: absolute;
+  right: 15px;
+  top: 45px;
+  width: 150px;
+
+}
+.languagepicker:hover, .myClass {
+  /* don't forget the 1px border */
+  height: 81px;
+
+}
+.languagepicker:onclick {
+  /* don't forget the 1px border */
+  height: 81px;
+
+}
+
+.languagepicker a{
+  color: #000;
+  text-decoration: none;
+}
+
+.languagepicker li {
+  display: block;
+  padding: 0px 20px;
+  line-height: 40px;
+  border-top: 1px solid #EEE;
+}
+
+.languagepicker li:hover{
+  background-color: #EEE;
+}
+
+.languagepicker a:first-child li {
+  border: none;
+  background: #FFF !important;
+}
+
+.languagepicker li img {
+  margin-right: 5px;
+  width: 30px;
+}
+
+.roundborders {
+  border-radius: 5px;
+}
+
+
+
+/*end lang*/
+
+
+
 /**************** Large devices only ***************/
 @media (min-width: 1500px) {
   
@@ -1776,7 +1904,12 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
 div.content_works {
   width: 50%;
 }
-
+#country-select {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 100px;
+}
 
 }
 
@@ -1963,7 +2096,12 @@ div.content_works {
 div.content_works {
  width: 80%;
 }
-
+#country-select {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  width: 80px;
+}
 }
 /**************** Extra small devices only ***************/
 @media (max-width: 767px) {
@@ -2482,6 +2620,12 @@ width: 100%;
     width: auto;
     
     }
+#country-select {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 75px;
+}    
 
  /* .animation-element.slide-right.testimonial.test {
   position: absolute;
