@@ -1713,8 +1713,8 @@ option.value:focus {
 }
 .languagepicker:active {
   /* don't forget the 1px border */
-  /*height: 81px;*/
-  display: block;
+  height: 81px;
+  /*display: block;*/
 
 }
 
