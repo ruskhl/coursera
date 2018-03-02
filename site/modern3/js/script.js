@@ -217,10 +217,8 @@ $window.trigger('scroll');
 
 
 
-
 // $('#foo').click(function() {
-//   $('#foo').addClass('myClass');
+//     $('#foo').css({
+//         'height': '81px'
+//     });
 // });
-
-
-

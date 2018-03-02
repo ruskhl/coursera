@@ -1706,14 +1706,15 @@ option.value:focus {
   width: 150px;
 
 }
-.languagepicker:hover, .myClass {
+.languagepicker:hover {
   /* don't forget the 1px border */
   height: 81px;
 
 }
-.languagepicker:onclick {
+.languagepicker:active {
   /* don't forget the 1px border */
-  height: 81px;
+  /*height: 81px;*/
+  display: block;
 
 }
 
