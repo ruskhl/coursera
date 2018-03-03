@@ -217,8 +217,11 @@ $window.trigger('scroll');
 
 
 
-// $('#foo').click(function() {
-//     $('#foo').css({
-//         'height': '81px'
-//     });
+// $(function() {
+//    $('ul.languagepicker').click(function() {
+//        $('ul.languagepicker').removeClass('active');
+//        $(this).addClass('active');
+//    });
 // });
+
+

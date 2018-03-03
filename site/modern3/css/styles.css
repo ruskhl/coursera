@@ -1711,11 +1711,10 @@ option.value:focus {
   height: 81px;
 
 }
-.languagepicker:active {
-  /* don't forget the 1px border */
-  height: 81px;
-  /*display: block;*/
 
+
+.languagepicker:active {
+  height: 81px;
 }
 
 .languagepicker a{
