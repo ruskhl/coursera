@@ -217,11 +217,11 @@ $window.trigger('scroll');
 
 
 
-// $(function() {
-//    $('ul.languagepicker').click(function() {
-//        $('ul.languagepicker').removeClass('active');
-//        $(this).addClass('active');
-//    });
-// });
-
+// $(function(){
+//     $('ul').click(function(){
+//     $('ul').toggleClass('maximize');
+//         $('ul').toggleClass('minimize');
+//     });
+// $('ul').addClass('minimize');
+// })();
 

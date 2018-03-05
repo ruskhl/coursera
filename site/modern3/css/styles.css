@@ -1634,54 +1634,18 @@ a.scrolldown:hover, a.scrolldown:focus, #back-top a:hover, #back-top a:focus {
 
 /*lang*/
 
-/*select {
-  font-size: 2em;
-  background-color: transparent;
-  border-color: transparent;
-  color: white;
-  position: absolute;
-  right: 50px;
-  top: 150px;
-  
 
-}*/
-
-/*textarea:focus, input:focus{
-    outline: none;
-
+.btn-group {
 
 }
-*:focus {
-    outline: none;
-
-}*/
-/*select option {
-    margin: 40px;
-    background: rgba(0, 0, 0, 0.3);
-    color: #fff;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
-}*/
-
-/*select:active, select:focus {
-  border-color: transparent;
-}*/
-/*select:active, select:focus {
-  border-color: transparent;
+A:hover {
+  text-decoration: none;
 }
-.onchange {
-  border-color: none;
-  background-color: transparent;
-}
-option.value:focus {
-  border-color: none;
-  background-color: transparent;
-}*/
-
-
 
 
 .languagepicker {
   background-color: #FFF;
+
   /*background-color: transparent;*/
   display: inline-block;
   padding: 0;
@@ -1696,7 +1660,7 @@ option.value:focus {
   top: 150px;*/
   position: absolute;
   right: 45px;
-  top: 65px;
+  top: 66px;
   width: 140px;
 }
 .anotherpos {
@@ -1746,8 +1710,12 @@ option.value:focus {
 .roundborders {
   border-radius: 5px;
 }
-
-
+.minimize {
+  height: 40px;
+}
+.maximize {
+  height: 81px;
+}
 
 /*end lang*/
 

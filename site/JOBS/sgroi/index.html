@@ -40,7 +40,7 @@
     </fieldset>
   </form> -->
 
-<form action="mailto:ruslana.khlopuk@gmail.com" method="post" enctype="text/plain">
+<!-- <form action="mailto:ruslana.khlopuk@gmail.com" method="post" enctype="text/plain">
 Name:<br>
 <input type="text" name="name"><br>
 E-mail:<br>
@@ -49,12 +49,35 @@ Comment:<br>
 <input type="text" name="comment" size="50"><br><br>
 <input type="submit" value="Send">
 <input type="reset" value="Reset">
-</form>
+</form> -->
 
 <!-- <form method="post" action="contact.php">
     <textarea name="message"></textarea>
     <input type="submit">
 </form> -->
+
+
+
+
+
+<form method="post" action="send_mail.php">
+<p>
+<label>First Name
+<input type="text" name="first_name" required>
+</label> 
+</p>
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+<p>
+<label>Comments
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+<p><button>Submit the form</button></p>
+</form>
 
 
 
