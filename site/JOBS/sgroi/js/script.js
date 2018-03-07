@@ -3,15 +3,15 @@ var settings = {
 
 //height of sphere container
 
-height: 600,
+height: 400,
 
 //width of sphere container
 
-width: 600,
+width: 400,
 
 //radius of sphere
 
-radius: 200,
+radius: 150,
 
 //rotation speed
 
