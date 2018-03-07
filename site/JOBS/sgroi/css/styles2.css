@@ -1,0 +1,104 @@
+/*BLOG*/
+h1.blog {
+  padding-top: 80px;
+  font-weight: bolder;
+}
+.content {
+  width: 50%;
+  margin: 10px auto;
+ 
+}
+div.content {
+  padding-top: 80px;
+}
+/*.postt {
+	box-shadow: 1px gray;
+}*/
+.title {
+	font-weight: bolder;
+  color: black;
+  padding: 0;
+}
+.date, .blog_content {
+  color: black;
+}
+.date, .blog_content, div.postt div.title {
+  font-size: 25px;
+}
+.date {
+  text-align: right;
+}
+#footer {
+  position: relative;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
+#footer a {
+  color: black;
+  font-size: 25px;
+}
+.postt {
+  /* font-size: 2em;*/
+}
+
+
+
+/*ADMIN*/
+/*Startpage*/
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+.navbar li a {
+  font-size: 20px;
+}
+.navbar li {
+  text-align: center;
+  display: inline-block;
+
+}
+
+
+.navbar a {
+
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.navbar a:hover {
+ /* font-weight: bolder;*/
+}
+
+.navbar a.active {
+  font-weight: bolder;
+}
+.content {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	/*position: absolute;*/
+	padding-top: 150px;
+}
+.title, .URL {
+	font-weight: bolder;
+	font-size: 17px;
+}
+
+
+
+
+
+/*FORM*/

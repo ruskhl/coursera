@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>sgroi.gabriel | Home</title>
    
     <!-- https://sgroi.writeas.com/ -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>sgroi.gabriel | Home</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     
   
@@ -17,17 +25,31 @@
 </head>
 <body>
 	<div class="navbar">
-        <li><a data-toggle="modal" data-target="#myModal" class="active">Contact</a></li>
-        <li><a href="#news">Blog</a></li>
-        <li><a href="#contact">Jobs</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a data-toggle="modal" data-target="#myModal" >Contact</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
         <li><a href="#home">Foundation</a></li>
         <li><a href="search-faq.html">Newsletter</a></li>
-        <li><a href="#contact">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="#contact">English</a></li>
     </div>
 	<h1 class="sgroi"><strong>sgroi.ga</strong>briel</h1>
+<!--TAG CLOUD-->
+<div id="tagcloud">
 
-<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Large Modal</button> -->
+<ul>
+    <li><a href="#">Example</a></li>
+    <li><a href="#">Example</a></li>
+    <li><a href="#">Example</a></li>
+    <li><a href="#">Example</a></li>
+    <li><a href="#">Example</a></li>
+    <li><a href="#">Example</a></li>
+    <li><a href="#">Example</a></li>
+    
+</ul>
+
+</div>
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -38,55 +60,8 @@
           <h4 class="modal-title">Contact</h4>
         </div>
         <div class="modal-body">
-            <form name="contactform" method="post" action="send_form_email.php">
-<table width="450px">
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top"">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Comments *</label>
- </td>
- <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
- </td>
-</tr>
-</table>
-</form>
+            <div id="form_sample"></div> <!-- Include JS file here -->
+<script src="js/form.js"></script>
            <!-- <form id="contact" action="mailto:ruslana.khlopuk@gmail.com" method="post">
     <h3>Quick Contact</h3>
     <h4>Contact us today, and get reply with in 24 hours!</h4>
@@ -120,8 +95,11 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/script.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+<script type="text/javascript" src="src/tagcloud.jquery.js"></script>
 </body>
 
 </html>
