@@ -15,7 +15,7 @@ radius: 150,
 
 //rotation speed
 
-speed: 1,
+speed: 3,
 
 //sphere rotations slower
 
@@ -97,22 +97,22 @@ $('#tagcloud').tagoSphere(settings);
 // }
 
 
-$('#blog').bind('toggle', function()   
-{  
-    var $blog = $(this);  
-    if ($blog.is(':visible')) $blog.trigger('hide');  
-    else $blog.trigger('show')  
-})  
-    .bind('show', function()  
-    {  
-    $(this).slideDown('show');  
-})  
-    .bind('hide', function()   
-    {  
-    $(this).slideUp('hide');  
-});  
-$('#blogbutton').removeAttr('href').  
-click(function()   
-{  
-    $('#blog').trigger('toggle');  
-});
+// $('#blog').bind('toggle', function()   
+// {  
+//     var $blog = $(this);  
+//     if ($blog.is(':visible')) $blog.trigger('hide');  
+//     else $blog.trigger('show')  
+// })  
+//     .bind('show', function()  
+//     {  
+//     $(this).slideDown('show');  
+// })  
+//     .bind('hide', function()   
+//     {  
+//     $(this).slideUp('hide');  
+// });  
+// $('#blogbutton').removeAttr('href').  
+// click(function()   
+// {  
+//     $('#blog').trigger('toggle');  
+// });
